@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "tsx src/index.ts",
-    "start": "node --enable-source-maps dist/index.js",
+    "dev": "tsx src/bot.ts",
+    "start": "node --enable-source-maps dist/bot.js",
     "build": "tsc -p tsconfig.json",
     "check": "tsc -p tsconfig.json --noEmit"
   },

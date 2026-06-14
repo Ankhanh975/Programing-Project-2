@@ -1,63 +1,47 @@
 # Minecraft Sword PvP Agent
 
-A small Mineflayer-based agent scaffold for experimenting with Minecraft combat behavior inspired by AlphaGo-style training loops.
+This repo now has one consistent goal: a sword-duel bot that can run against a real Minecraft server or in a local prismarine-physics duel harness.
 
-## What this project includes
+The decision-making layer now uses a small MCTS planner. In local physics mode, both fighters search over a handful of candidate combat actions and roll out short futures before choosing a move. In server mode, the same search is used against a flat-world approximation so the runtime stays consistent.
 
-- A Mineflayer client that can join a server, watch for a target player, and follow them.
-- Prismarine Physics wired in for movement simulation and future training logic.
-- A flat-world-friendly setup assumption for local testing.
-- A clean TypeScript project structure with build and run scripts.
+## What it does
 
-## Requirements
+- Runs a Mineflayer bot that seeks the nearest player or a named opponent and fights with a sword.
+- Reuses the same combat decision logic in a local prismarine-physics duel between two simulated fighters.
+- Keeps one entrypoint: [src/bot.ts](src/bot.ts).
 
-- Node.js 20 or newer
-- A Minecraft server or local world the bot can join
-- A flat world if you want to match the assumed training environment
+## Run modes
 
-## Install
-
-```bash
-npm install
-```
-
-## Configure
-
-Set environment variables before starting the bot:
-
-- `MC_HOST` - server hostname, default `localhost`
-- `MC_PORT` - server port, default `25565`
-- `MC_USERNAME` - bot username, default `SwordAgent`
-- `MC_VERSION` - Minecraft version, default `auto`
-- `MC_TARGET` - player name to follow, default `your username`
-- `MC_FLY_SPEED` - follow speed while flying, default `0.15`
-- `MC_FOLLOW_RADIUS` - distance to maintain from the target, default `3`
-
-## Run
+Server mode:
 
 ```bash
 npm run dev
 ```
 
-## Server notes
+Physics duel mode:
 
-If you are creating a local training world, configure the server as a flat world. For a vanilla server, that usually means setting the level type to `flat` before first launch.
+```bash
+npm run dev -- --mode physics
+```
 
-## Bot controls
+## Configuration
 
-The bot listens for these chat commands:
+Common options come from environment variables or CLI flags:
 
-- `!follow` - follow the player who sent the command
-- `!target <name>` - follow a specific player
-- `!stop` - stop following and clear movement controls
+- `MC_HOST` / `--host` - server hostname, default `localhost`
+- `MC_PORT` / `--port` - server port, default `25565`
+- `MC_USERNAME` / `--username` - bot username, default `SwordAgent`
+- `MC_VERSION` / `--version` - Minecraft version, default `auto`
+- `MC_TARGET` / `--opponent` - opponent player name, otherwise the nearest player is used
+- `RUN_MODE` / `--mode` - `server` or `physics`
+- `DUEL_ATTACK_REACH` / `--attack-reach` - melee range threshold, default `3.05`
+- `DUEL_TICK_MS` / `--tick-ms` - combat loop interval in server mode, default `100`
+- `DUEL_TIMEOUT_MS` / `--fight-timeout-ms` - optional timeout in server mode
+- `MCTS_ITERATIONS` / `--mcts-iterations` - search budget per decision, default `10`
+- `MCTS_ROLLOUT_DEPTH` / `--rollout-depth` - rollout horizon for search, default `2`
 
-The follow loop uses Prismarine Physics against a flat-world model, so it is ready for future training code. If the server grants creative flight or an equivalent movement mode, the same movement logic can be extended to maintain altitude with you in the air.
+## Notes
 
-## Next steps
-
-This scaffold is intentionally small. From here you can add:
-
-- combat policy training
-- replay logging
-- scripted duel scenarios
-- evaluation metrics for PvP decisions
+- Server mode is for real multiplayer fights against another bot or player.
+- Physics mode is a local simulation and is useful for tuning movement and melee intent without connecting to a server.
+- The shared combat logic lives in [src/combat.ts](src/combat.ts).
