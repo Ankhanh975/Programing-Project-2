@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.21)  21 JUN 2026 15:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.21)  21 JUN 2026 20:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -178,7 +178,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count299
 )
-No file statement.aux.
+(statement.aux)
 \openout1 = `statement.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -199,6 +199,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -234,42 +235,36 @@ LaTeX Font Info:    ... okay on input line 9.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 9.
+(statement.out) (statement.out)
 \@outlinefile=\write3
 \openout3 = `statement.out'.
 
-[1
+ [1
 
-{C:/Users/ankha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-(statement.aux)
+{C:/Users/ankha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (stateme
+nt.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
  ***********
-
-
-Package rerunfilecheck Warning: File `statement.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `statement.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `statement.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8072 strings out of 467509
- 126454 string characters out of 5418889
- 557205 words of memory out of 5000000
- 37273 multiletter control sequences out of 15000+600000
+ 8080 strings out of 467509
+ 126734 string characters out of 5418889
+ 557307 words of memory out of 5000000
+ 37275 multiletter control sequences out of 15000+600000
  629732 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,5n,79p,438b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,5n,79p,452b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ankha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1095.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
 Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmtt10.pfb>
-Output written on statement.pdf (2 pages, 81350 bytes).
+Output written on statement.pdf (2 pages, 83406 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)

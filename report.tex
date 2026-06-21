@@ -8,7 +8,7 @@
 
 \title{Creative Variations of Monte Carlo Tree Search for a Minecraft Sword PvP Agent}
 \author{Nguyen Huy An Khanh}
-\date{COMP2050 Programming Project}
+\date{COMP2050 Programming Project\\Instructor: Leandro S. Marcolino\\June 21, 2026}
 
 \begin{document}
 
@@ -33,7 +33,7 @@ The research questions are:
 
 \section{Related Work}
 
-MCTS is widely used in game AI because it can choose actions without exhaustively searching the full game tree. The algorithm repeats selection, expansion, simulation, and backpropagation. Upper Confidence Bounds for Trees (UCT) balances exploiting actions with high current value against exploring less-visited actions. MCTS is best known from board games such as Go, but the same idea can be adapted to real-time games by limiting the number of search iterations per decision.
+MCTS is widely used in game AI because it can choose actions without exhaustively searching the full game tree. The algorithm repeats selection, expansion, simulation, and backpropagation. Upper Confidence Bounds for Trees (UCT) balances exploiting actions with high current value against exploring less-visited actions. MCTS is best known from board games such as Go. AlphaGo later showed that tree search can be even stronger when guided by learned policy and value models, although this project uses a much smaller hand-designed evaluation because training deep networks is outside the project scope. The same planning idea can be adapted to real-time games by limiting the number of search iterations per decision.
 
 Minecraft bot development commonly uses Mineflayer, a JavaScript API that exposes player entities, inventory, movement controls, chat, and attack actions. Prismarine-physics approximates Minecraft movement and collision behavior locally. In this project, these libraries provide the environment layer, while the combat search logic is implemented separately.
 
@@ -95,6 +95,7 @@ Table~\ref{tab:aggregate} summarizes the repeated strategy trials. Higher-budget
 \caption{Aggregate results from three repeated trials per strategy variant.}
 \label{tab:aggregate}
 \small
+\resizebox{\linewidth}{!}{%
 \begin{tabular}{p{0.30\linewidth}rrrrrr}
 \toprule
 Variant & Runs & Alpha Win Rate & Mean Ticks & Var. Ticks & Mean First Attack & Mean Visits \\
@@ -106,6 +107,7 @@ High-exploration MCTS & 3 & 1.000 & 57.667 & 0.889 & 13.667 & 14.986 \\
 Higher-budget MCTS & 3 & 1.000 & 56.000 & 0.667 & 12.000 & 19.203 \\
 \bottomrule
 \end{tabular}
+}
 \end{table}
 
 \begin{figure}[h]
@@ -172,26 +174,37 @@ A separate \texttt{statement.pdf} is included with the submission. It explains w
 \bibitem{coulom2006}
 R. Coulom.
 \newblock Efficient selectivity and backup operators in Monte-Carlo tree search.
-\newblock \emph{Computers and Games}, 2006.
+\newblock In \emph{Computers and Games}, Lecture Notes in Computer Science, vol. 4630, pp. 72--83, 2007.
+\newblock \url{https://doi.org/10.1007/978-3-540-75538-8_7}.
 
 \bibitem{kocsis2006}
 L. Kocsis and C. Szepesvari.
 \newblock Bandit based Monte-Carlo planning.
-\newblock \emph{European Conference on Machine Learning}, 2006.
+\newblock In \emph{Machine Learning: ECML 2006}, Lecture Notes in Computer Science, vol. 4212, pp. 282--293, 2006.
+\newblock \url{https://doi.org/10.1007/11871842_29}.
 
 \bibitem{browne2012}
-C. B. Browne et al.
+C. B. Browne, E. Powley, D. Whitehouse, S. M. Lucas, P. I. Cowling, P. Rohlfshagen, S. Tavener, D. Perez, S. Samothrakis, and S. Colton.
 \newblock A survey of Monte Carlo tree search methods.
-\newblock \emph{IEEE Transactions on Computational Intelligence and AI in Games}, 2012.
+\newblock \emph{IEEE Transactions on Computational Intelligence and AI in Games}, 4(1):1--43, 2012.
+\newblock \url{https://doi.org/10.1109/TCIAIG.2012.2186810}.
+
+\bibitem{silver2016}
+D. Silver, A. Huang, C. J. Maddison, A. Guez, L. Sifre, G. van den Driessche, J. Schrittwieser, I. Antonoglou, V. Panneershelvam, M. Lanctot, and others.
+\newblock Mastering the game of Go with deep neural networks and tree search.
+\newblock \emph{Nature}, 529:484--489, 2016.
+\newblock \url{https://doi.org/10.1038/nature16961}.
 
 \bibitem{mineflayer}
 Mineflayer contributors.
 \newblock Mineflayer: Create Minecraft bots with a powerful, stable, and high level JavaScript API.
+\newblock GitHub repository, PrismarineJS.
 \newblock \url{https://github.com/PrismarineJS/mineflayer}.
 
 \bibitem{prismarinephysics}
 PrismarineJS contributors.
 \newblock prismarine-physics.
+\newblock GitHub repository, PrismarineJS.
 \newblock \url{https://github.com/PrismarineJS/prismarine-physics}.
 
 \end{thebibliography}

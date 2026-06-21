@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.21)  21 JUN 2026 15:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.21)  21 JUN 2026 20:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -302,8 +302,10 @@ LaTeX Font Info:    ... okay on input line 13.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 13.
+(report.out) (report.out)
 \@outlinefile=\write3
 \openout3 = `report.out'.
+
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -334,18 +336,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 85.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 85.
-
-
-LaTeX Warning: Reference `tab:aggregate' on page 3 undefined on input line 91.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 98.
+(Font)              <7> on input line 110.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 98.
-
-Overfull \hbox (80.70132pt too wide) in paragraph at lines 98--109
- [][] 
- []
+(Font)              <5> on input line 110.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -354,46 +348,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `tab:examples' on page 3 undefined on input line 127.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3] [4]
-Underfull \hbox (badness 2884) in paragraph at lines 193--196
-[]\OT1/cmr/m/n/10.95 PrismarineJS con-trib-u-tors.  prismarine-physics.  []$\OT
-1/cmtt/m/n/10.95 https : / / github . com / PrismarineJS /
- []
-
-[5] (report.aux)
+[3] [4] [5] [6] (report.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `report.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  1319C5635E01B989656E237A45A72C89;1196.
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: 1319C5635E01B989656E237A45A72C89;1196.
  ) 
 Here is how much of TeX's memory you used:
- 9217 strings out of 467509
- 143427 string characters out of 5418889
- 574663 words of memory out of 5000000
- 38344 multiletter control sequences out of 15000+600000
+ 9236 strings out of 467509
+ 143750 string characters out of 5418889
+ 575076 words of memory out of 5000000
+ 38357 multiletter control sequences out of 15000+600000
  633440 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,9n,79p,859b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,10n,79p,859b,562s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ankha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1095.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/
 Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program File
@@ -402,9 +374,9 @@ s/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 
-Output written on report.pdf (5 pages, 136150 bytes).
+Output written on report.pdf (6 pages, 148788 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 155 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
