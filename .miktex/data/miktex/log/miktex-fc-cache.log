@@ -1,0 +1,8 @@
+2026-06-21 11:06:43,835+0700 INFO  miktex-fc-cache - this process (13212) started by miktex in directory C:\src\Programming Project 2\Programing-Project-2 with command line: miktex-fc-cache --miktex-disable-maintenance --miktex-disable-diagnose
+2026-06-21 11:06:43,835+0700 INFO  miktex-fc-cache - running on Windows 10.0.26200
+2026-06-21 11:06:43,858+0700 ERROR miktex-fc-cache.core - Access is denied.
+
+2026-06-21 11:06:43,858+0700 ERROR miktex-fc-cache.core - Function: FindFirstFileW
+2026-06-21 11:06:43,858+0700 ERROR miktex-fc-cache.core - Result: 5
+2026-06-21 11:06:43,858+0700 ERROR miktex-fc-cache.core - Data: path="C:/Users/ankha/AppData/Local/Microsoft/Windows/Fonts"
+2026-06-21 11:06:43,859+0700 ERROR miktex-fc-cache.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:301

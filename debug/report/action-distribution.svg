@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560" role="img" aria-label="Action distribution across all scenarios">
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #0f172a; }
+    .title { font-size: 26px; font-weight: 700; }
+    .label { font-size: 15px; }
+    .small { font-size: 14px; fill: #334155; }
+    .tiny { font-size: 10px; fill: #334155; }
+  </style>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="40" y="34" class="title">Action distribution across all scenarios</text>
+  
+      <text x="206" y="95" text-anchor="end" class="label">sprint-advance</text>
+      <rect x="220" y="75" width="650" height="28" rx="4" fill="#0f766e"/>
+      <text x="880" y="95" class="small">1339</text>
+    
+      <text x="206" y="135" text-anchor="end" class="label">advance</text>
+      <rect x="220" y="115" width="119.41747572815535" height="28" rx="4" fill="#0f766e"/>
+      <text x="349.41747572815535" y="135" class="small">246</text>
+    
+      <text x="206" y="175" text-anchor="end" class="label">close-attack</text>
+      <rect x="220" y="155" width="88.3495145631068" height="28" rx="4" fill="#0f766e"/>
+      <text x="318.3495145631068" y="175" class="small">182</text>
+    
+      <text x="206" y="215" text-anchor="end" class="label">jump-sprint</text>
+      <rect x="220" y="195" width="27.669902912621357" height="28" rx="4" fill="#0f766e"/>
+      <text x="257.66990291262135" y="215" class="small">57</text>
+    
+      <text x="206" y="255" text-anchor="end" class="label">jump-advance</text>
+      <rect x="220" y="235" width="22.33009708737864" height="28" rx="4" fill="#0f766e"/>
+      <text x="252.33009708737865" y="255" class="small">46</text>
+    
+      <text x="206" y="295" text-anchor="end" class="label">hold-attack</text>
+      <rect x="220" y="275" width="3.883495145631068" height="28" rx="4" fill="#0f766e"/>
+      <text x="233.88349514563106" y="295" class="small">8</text>
+    
+</svg>

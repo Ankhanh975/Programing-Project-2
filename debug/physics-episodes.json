@@ -1,0 +1,3199 @@
+{
+  "version": "1.20.4",
+  "winner": "Alpha",
+  "left": {
+    "name": "Alpha",
+    "health": 11
+  },
+  "right": {
+    "name": "Bravo",
+    "health": 0
+  },
+  "episodes": [
+    {
+      "tick": 1,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 34.26022843359758,
+      "visits": 60,
+      "distance": 8.113930298049853,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": -3.974956416676913,
+        "y": 64,
+        "z": -0.7453043281269214
+      },
+      "opponentPosition": {
+        "x": 4,
+        "y": 64,
+        "z": 0.75
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 1,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 12.513149209082723,
+      "visits": 44,
+      "distance": 8.088450298049851,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": 3.9749564166769136,
+        "y": 64,
+        "z": 0.7453043281269213
+      },
+      "opponentPosition": {
+        "x": -3.974956416676913,
+        "y": 64,
+        "z": -0.7453043281269214
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 2,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 46.793249219696186,
+      "visits": 60,
+      "distance": 8.039783498049854,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": -3.927123172529818,
+        "y": 64,
+        "z": -0.7363355948493411
+      },
+      "opponentPosition": {
+        "x": 3.9749564166769136,
+        "y": 64,
+        "z": 0.7453043281269213
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 2,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 26.31221688040246,
+      "visits": 44,
+      "distance": 7.9911166980498525,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": 3.9271231725298184,
+        "y": 64,
+        "z": 0.7363355948493409
+      },
+      "opponentPosition": {
+        "x": -3.927123172529818,
+        "y": 64,
+        "z": -0.7363355948493411
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 3,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 57.81912616186833,
+      "visits": 60,
+      "distance": 7.819429859957495,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": -3.7583769545061436,
+        "y": 64,
+        "z": -0.7046956789699022
+      },
+      "opponentPosition": {
+        "x": 3.9271231725298184,
+        "y": 64,
+        "z": 0.7363355948493409
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 3,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 38.030085883627855,
+      "visits": 44,
+      "distance": 7.647743021865137,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": 3.7583769545061436,
+        "y": 64,
+        "z": 0.7046956789699019
+      },
+      "opponentPosition": {
+        "x": -3.7583769545061436,
+        "y": 64,
+        "z": -0.7046956789699022
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 4,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 67.0711927722323,
+      "visits": 60,
+      "distance": 7.426601958174353,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": -3.5410235536153993,
+        "y": 64,
+        "z": -0.6639419163028877
+      },
+      "opponentPosition": {
+        "x": 3.7583769545061436,
+        "y": 64,
+        "z": 0.7046956789699019
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 4,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 48.144927625279905,
+      "visits": 44,
+      "distance": 7.205460894483567,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": 3.5410235536153993,
+        "y": 64,
+        "z": 0.6639419163028875
+      },
+      "opponentPosition": {
+        "x": -3.5410235536153993,
+        "y": 64,
+        "z": -0.6639419163028877
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 5,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 74.50516447805107,
+      "visits": 60,
+      "distance": 6.95731782361604,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": -3.297130630879235,
+        "y": 64,
+        "z": -0.6182119932898571
+      },
+      "opponentPosition": {
+        "x": 3.5410235536153993,
+        "y": 64,
+        "z": 0.6639419163028875
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 5,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 58.66557443642926,
+      "visits": 44,
+      "distance": 6.709174752748514,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": 3.297130630879235,
+        "y": 64,
+        "z": 0.6182119932898567
+      },
+      "opponentPosition": {
+        "x": -3.297130630879235,
+        "y": 64,
+        "z": -0.6182119932898571
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 6,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 80.22672338865642,
+      "visits": 60,
+      "distance": 6.446288585962487,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": -3.038747129215472,
+        "y": 64,
+        "z": -0.5697650867279016
+      },
+      "opponentPosition": {
+        "x": 3.297130630879235,
+        "y": 64,
+        "z": 0.6182119932898567
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 6,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 63.270024424131,
+      "visits": 44,
+      "distance": 6.18340241917646,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": 3.038747129215472,
+        "y": 64,
+        "z": 0.569765086727901
+      },
+      "opponentPosition": {
+        "x": -3.038747129215472,
+        "y": 64,
+        "z": -0.5697650867279016
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 7,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 83.54171829622013,
+      "visits": 60,
+      "distance": 5.912466522018931,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": -2.772451771457239,
+        "y": 64,
+        "z": -0.519834707148233
+      },
+      "opponentPosition": {
+        "x": 3.038747129215472,
+        "y": 64,
+        "z": 0.569765086727901
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 7,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 72.36566530796436,
+      "visits": 44,
+      "distance": 5.641530624861403,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": 2.772451771457239,
+        "y": 64,
+        "z": 0.5198347071482324
+      },
+      "opponentPosition": {
+        "x": -2.772451771457239,
+        "y": 64,
+        "z": -0.519834707148233
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 8,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 85.28040406566339,
+      "visits": 60,
+      "distance": 5.366199574921034,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": -2.501836540271426,
+        "y": 64,
+        "z": -0.4690943513008932
+      },
+      "opponentPosition": {
+        "x": 2.772451771457239,
+        "y": 64,
+        "z": 0.5198347071482324
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 8,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 75.5015990887518,
+      "visits": 44,
+      "distance": 5.0908685249806656,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": 2.501836540271426,
+        "y": 64,
+        "z": 0.4690943513008925
+      },
+      "opponentPosition": {
+        "x": -2.501836540271426,
+        "y": 64,
+        "z": -0.4690943513008932
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 9,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 85.91980169392211,
+      "visits": 60,
+      "distance": 4.813137721620867,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": -2.2288626581941546,
+        "y": 64,
+        "z": -0.4179117484114048
+      },
+      "opponentPosition": {
+        "x": 2.501836540271426,
+        "y": 64,
+        "z": 0.4690943513008925
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 9,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "close-attack",
+      "attack": false,
+      "score": 78.2575055240181,
+      "visits": 31,
+      "distance": 4.5648069298208425,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": 2.257759111851805,
+        "y": 64,
+        "z": 0.4233298334722135
+      },
+      "opponentPosition": {
+        "x": -2.2288626581941546,
+        "y": 64,
+        "z": -0.4179117484114048
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 10,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 85.94516453969872,
+      "visits": 19,
+      "distance": 4.285765861094035,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": -1.9546009527301462,
+        "y": 64,
+        "z": -0.3664876786369034
+      },
+      "opponentPosition": {
+        "x": 2.257759111851805,
+        "y": 64,
+        "z": 0.4233298334722135
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 10,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "jump-advance",
+      "attack": false,
+      "score": 81.97557953253971,
+      "visits": 18,
+      "distance": 4.052177210238639,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": 2.028171323742524,
+        "y": 64,
+        "z": 0.3802821232017233
+      },
+      "opponentPosition": {
+        "x": -1.9546009527301462,
+        "y": 64,
+        "z": -0.3664876786369034
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 11,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 61.30881343188643,
+      "visits": 24,
+      "distance": 3.7724207366214433,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": -1.6796360956969798,
+        "y": 64,
+        "z": -0.31493176794318484
+      },
+      "opponentPosition": {
+        "x": 2.028171323742524,
+        "y": 64,
+        "z": 0.3802821232017233
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 11,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "jump-advance",
+      "attack": false,
+      "score": 56.67059875289017,
+      "visits": 37,
+      "distance": 3.5468812947218145,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": 1.806494879242689,
+        "y": 64,
+        "z": 0.33871778985800416
+      },
+      "opponentPosition": {
+        "x": -1.6796360956969798,
+        "y": 64,
+        "z": -0.31493176794318484
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 12,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "jump-sprint",
+      "attack": false,
+      "score": 64.51840711430143,
+      "visits": 56,
+      "distance": 3.266734210034468,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": -1.4042873179070532,
+        "y": 64,
+        "z": -0.2633038721075736
+      },
+      "opponentPosition": {
+        "x": 1.806494879242689,
+        "y": 64,
+        "z": 0.33871778985800416
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 12,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "close-attack",
+      "attack": false,
+      "score": 44.142464396466444,
+      "visits": 44,
+      "distance": 3.045589636224688,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": 1.5891380283536114,
+        "y": 64,
+        "z": 0.2979633803163021
+      },
+      "opponentPosition": {
+        "x": -1.4042873179070532,
+        "y": 64,
+        "z": -0.2633038721075736
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 13,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "close-attack",
+      "attack": true,
+      "score": 68.71521442224214,
+      "visits": 3,
+      "distance": 2.794629289452814,
+      "healthDiff": 0,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 20,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": -1.1576253730415857,
+        "y": 64,
+        "z": -0.2170547574452984
+      },
+      "opponentPosition": {
+        "x": 1.5891380283536114,
+        "y": 64,
+        "z": 0.2979633803163021
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 13,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "close-attack",
+      "attack": true,
+      "score": -52.675984787328105,
+      "visits": 4,
+      "distance": 2.673884352152674,
+      "healthDiff": -5,
+      "actorCooldown": 0,
+      "opponentCooldown": 10,
+      "actorHealth": 15,
+      "opponentHealth": 20,
+      "actorPosition": {
+        "x": 1.470461187768175,
+        "y": 64,
+        "z": 0.27571147270653273
+      },
+      "opponentPosition": {
+        "x": -1.1576253730415857,
+        "y": 64,
+        "z": -0.2170547574452984
+      },
+      "controls": {
+        "forward": false,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 14,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "advance",
+      "attack": false,
+      "score": 203.95019181127716,
+      "visits": 13,
+      "distance": 2.4388599642826474,
+      "healthDiff": 2,
+      "actorCooldown": 9,
+      "opponentCooldown": 10,
+      "actorHealth": 17,
+      "opponentHealth": 15,
+      "actorPosition": {
+        "x": -0.9266264389528729,
+        "y": 64,
+        "z": -0.17374245730366467
+      },
+      "opponentPosition": {
+        "x": 1.470461187768175,
+        "y": 64,
+        "z": 0.27571147270653273
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 14,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -128.47829863579585,
+      "visits": 10,
+      "distance": 2.2455331784244135,
+      "healthDiff": -2,
+      "actorCooldown": 9,
+      "opponentCooldown": 9,
+      "actorHealth": 15,
+      "opponentHealth": 17,
+      "actorPosition": {
+        "x": 1.280445666958709,
+        "y": 64,
+        "z": 0.2400835625547578
+      },
+      "opponentPosition": {
+        "x": -0.9266264389528729,
+        "y": 64,
+        "z": -0.17374245730366467
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 15,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "advance",
+      "attack": false,
+      "score": 196.48934990899096,
+      "visits": 8,
+      "distance": 2.019209824114796,
+      "healthDiff": 2,
+      "actorCooldown": 8,
+      "opponentCooldown": 9,
+      "actorHealth": 17,
+      "opponentHealth": 15,
+      "actorPosition": {
+        "x": -0.7041795087482681,
+        "y": 64,
+        "z": -0.13203365789030114
+      },
+      "opponentPosition": {
+        "x": 1.280445666958709,
+        "y": 64,
+        "z": 0.2400835625547578
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 15,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -140.68494475753863,
+      "visits": 10,
+      "distance": 1.7862533489438424,
+      "healthDiff": -2,
+      "actorCooldown": 8,
+      "opponentCooldown": 8,
+      "actorHealth": 15,
+      "opponentHealth": 17,
+      "actorPosition": {
+        "x": 1.0514792267469226,
+        "y": 64,
+        "z": 0.1971523550150478
+      },
+      "opponentPosition": {
+        "x": -0.7041795087482681,
+        "y": 64,
+        "z": -0.13203365789030114
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 16,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 189.2427461276234,
+      "visits": 6,
+      "distance": 1.5352807473984338,
+      "healthDiff": 2,
+      "actorCooldown": 7,
+      "opponentCooldown": 8,
+      "actorHealth": 17,
+      "opponentHealth": 15,
+      "actorPosition": {
+        "x": -0.45750551900673614,
+        "y": 64,
+        "z": -0.08578228481376377
+      },
+      "opponentPosition": {
+        "x": 1.0514792267469226,
+        "y": 64,
+        "z": 0.1971523550150478
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 16,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -154.6330405870124,
+      "visits": 10,
+      "distance": 1.2806864618627352,
+      "healthDiff": -2,
+      "actorCooldown": 7,
+      "opponentCooldown": 7,
+      "actorHealth": 15,
+      "opponentHealth": 17,
+      "actorPosition": {
+        "x": 0.8012455845414694,
+        "y": 64,
+        "z": 0.15023354710152526
+      },
+      "opponentPosition": {
+        "x": -0.45750551900673614,
+        "y": 64,
+        "z": -0.08578228481376377
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 17,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 177.13328690219012,
+      "visits": 13,
+      "distance": 1.0162553713265843,
+      "healthDiff": 2,
+      "actorCooldown": 6,
+      "opponentCooldown": 7,
+      "actorHealth": 17,
+      "opponentHealth": 15,
+      "actorPosition": {
+        "x": -0.1976035547580418,
+        "y": 64,
+        "z": -0.0370506665171334
+      },
+      "opponentPosition": {
+        "x": 0.8012455845414694,
+        "y": 64,
+        "z": 0.15023354710152526
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 17,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -181.46208657303296,
+      "visits": 12,
+      "distance": 0.7498468413317352,
+      "healthDiff": -2,
+      "actorCooldown": 6,
+      "opponentCooldown": 6,
+      "actorHealth": 15,
+      "opponentHealth": 17,
+      "actorPosition": {
+        "x": 0.5394000500474742,
+        "y": 64,
+        "z": 0.10113750938390109
+      },
+      "opponentPosition": {
+        "x": -0.1976035547580418,
+        "y": 64,
+        "z": -0.0370506665171334
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 18,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 181.95899837226463,
+      "visits": 61,
+      "distance": 0.478067415806639,
+      "healthDiff": 2,
+      "actorCooldown": 5,
+      "opponentCooldown": 6,
+      "actorHealth": 17,
+      "opponentHealth": 15,
+      "actorPosition": {
+        "x": 0.06952088357156311,
+        "y": 64,
+        "z": 0.013035165669667725
+      },
+      "opponentPosition": {
+        "x": 0.5394000500474742,
+        "y": 64,
+        "z": 0.10113750938390109
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 18,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -187.50841593898187,
+      "visits": 15,
+      "distance": 0.2052083083370936,
+      "healthDiff": -2,
+      "actorCooldown": 5,
+      "opponentCooldown": 5,
+      "actorHealth": 15,
+      "opponentHealth": 17,
+      "actorPosition": {
+        "x": 0.27121442236393495,
+        "y": 64,
+        "z": 0.05085270419323745
+      },
+      "opponentPosition": {
+        "x": 0.06952088357156311,
+        "y": 64,
+        "z": 0.013035165669667725
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 19,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 180.89187058787837,
+      "visits": 20,
+      "distance": 0.07058330809196665,
+      "healthDiff": 2,
+      "actorCooldown": 4,
+      "opponentCooldown": 5,
+      "actorHealth": 17,
+      "opponentHealth": 15,
+      "actorPosition": {
+        "x": 0.3405887927493452,
+        "y": 64,
+        "z": 0.06386039864050194
+      },
+      "opponentPosition": {
+        "x": 0.27121442236393495,
+        "y": 64,
+        "z": 0.05085270419323745
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 19,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -197.1064517363543,
+      "visits": 10,
+      "distance": 0.09216433067798072,
+      "healthDiff": -2,
+      "actorCooldown": 4,
+      "opponentCooldown": 4,
+      "actorHealth": 15,
+      "opponentHealth": 17,
+      "actorPosition": {
+        "x": 0.2500030354985403,
+        "y": 64,
+        "z": 0.046875569155976016
+      },
+      "opponentPosition": {
+        "x": 0.3405887927493452,
+        "y": 64,
+        "z": 0.06386039864050194
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 20,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 175.60526776007177,
+      "visits": 49,
+      "distance": 0.11534650315588987,
+      "healthDiff": 2,
+      "actorCooldown": 3,
+      "opponentCooldown": 4,
+      "actorHealth": 17,
+      "opponentHealth": 15,
+      "actorPosition": {
+        "x": 0.36337390531059643,
+        "y": 64,
+        "z": 0.06813260724573661
+      },
+      "opponentPosition": {
+        "x": 0.2500030354985403,
+        "y": 64,
+        "z": 0.046875569155976016
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 20,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -197.5035107534851,
+      "visits": 23,
+      "distance": 0.0022371621423968387,
+      "healthDiff": -2,
+      "actorCooldown": 3,
+      "opponentCooldown": 3,
+      "actorHealth": 15,
+      "opponentHealth": 17,
+      "actorPosition": {
+        "x": 0.36363958411985264,
+        "y": 64,
+        "z": 0.07035393775281695
+      },
+      "opponentPosition": {
+        "x": 0.36337390531059643,
+        "y": 64,
+        "z": 0.06813260724573661
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 21,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 174.01934652246453,
+      "visits": 17,
+      "distance": 0.1272413240250494,
+      "healthDiff": 2,
+      "actorCooldown": 2,
+      "opponentCooldown": 3,
+      "actorHealth": 17,
+      "opponentHealth": 15,
+      "actorPosition": {
+        "x": 0.3909442327587729,
+        "y": 64,
+        "z": 0.19463109052979655
+      },
+      "opponentPosition": {
+        "x": 0.36363958411985264,
+        "y": 64,
+        "z": 0.07035393775281695
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 21,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -198.14482006514078,
+      "visits": 10,
+      "distance": 0.06342088858021722,
+      "healthDiff": -2,
+      "actorCooldown": 2,
+      "opponentCooldown": 2,
+      "actorHealth": 15,
+      "opponentHealth": 17,
+      "actorPosition": {
+        "x": 0.4530238492491102,
+        "y": 64,
+        "z": 0.20760530822170245
+      },
+      "opponentPosition": {
+        "x": 0.3909442327587729,
+        "y": 64,
+        "z": 0.19463109052979655
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 22,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 152.88121437459708,
+      "visits": 15,
+      "distance": 0.11306550452083133,
+      "healthDiff": 2,
+      "actorCooldown": 1,
+      "opponentCooldown": 2,
+      "actorHealth": 17,
+      "opponentHealth": 15,
+      "actorPosition": {
+        "x": 0.5307033306871691,
+        "y": 64,
+        "z": 0.28976190549827174
+      },
+      "opponentPosition": {
+        "x": 0.4530238492491102,
+        "y": 64,
+        "z": 0.20760530822170245
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 22,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "advance",
+      "attack": false,
+      "score": -170.32057258070844,
+      "visits": 40,
+      "distance": 0.0746570173718921,
+      "healthDiff": -2,
+      "actorCooldown": 1,
+      "opponentCooldown": 1,
+      "actorHealth": 15,
+      "opponentHealth": 17,
+      "actorPosition": {
+        "x": 0.5691567006419431,
+        "y": 64,
+        "z": 0.3537541595763106
+      },
+      "opponentPosition": {
+        "x": 0.5307033306871691,
+        "y": 64,
+        "z": 0.28976190549827174
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 23,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "advance",
+      "attack": false,
+      "score": 158.74282251132885,
+      "visits": 46,
+      "distance": 0.1139266180713402,
+      "healthDiff": 2,
+      "actorCooldown": 0,
+      "opponentCooldown": 1,
+      "actorHealth": 17,
+      "opponentHealth": 15,
+      "actorPosition": {
+        "x": 0.6574883892379764,
+        "y": 64,
+        "z": 0.42570405252234933
+      },
+      "opponentPosition": {
+        "x": 0.5691567006419431,
+        "y": 64,
+        "z": 0.3537541595763106
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 23,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -168.22807780070485,
+      "visits": 45,
+      "distance": 0.11511983315602042,
+      "healthDiff": -2,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 15,
+      "opponentHealth": 17,
+      "actorPosition": {
+        "x": 0.7313433961310861,
+        "y": 64,
+        "z": 0.5140104166343922
+      },
+      "opponentPosition": {
+        "x": 0.6574883892379764,
+        "y": 64,
+        "z": 0.42570405252234933
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 24,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "close-attack",
+      "attack": true,
+      "score": 165.26619891696353,
+      "visits": 3,
+      "distance": 0.01482368533359699,
+      "healthDiff": 2,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 17,
+      "opponentHealth": 15,
+      "actorPosition": {
+        "x": 0.7267130312067172,
+        "y": 64,
+        "z": 0.4999284647974957
+      },
+      "opponentPosition": {
+        "x": 0.7313433961310861,
+        "y": 64,
+        "z": 0.5140104166343922
+      },
+      "controls": {
+        "forward": false,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 24,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "close-attack",
+      "attack": true,
+      "score": -224.49712595534376,
+      "visits": 3,
+      "distance": 0.13784843065793714,
+      "healthDiff": -7,
+      "actorCooldown": 0,
+      "opponentCooldown": 10,
+      "actorHealth": 10,
+      "opponentHealth": 17,
+      "actorPosition": {
+        "x": 0.8198973318681582,
+        "y": 64,
+        "z": 0.6015103329881047
+      },
+      "opponentPosition": {
+        "x": 0.7267130312067172,
+        "y": 64,
+        "z": 0.4999284647974957
+      },
+      "controls": {
+        "forward": false,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 25,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 309.96132721469445,
+      "visits": 30,
+      "distance": 0.04496854116581067,
+      "healthDiff": 4,
+      "actorCooldown": 9,
+      "opponentCooldown": 10,
+      "actorHealth": 14,
+      "opponentHealth": 10,
+      "actorPosition": {
+        "x": 0.8506309749915131,
+        "y": 64,
+        "z": 0.6343373473961722
+      },
+      "opponentPosition": {
+        "x": 0.8198973318681582,
+        "y": 64,
+        "z": 0.6015103329881047
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 25,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -284.62692136786137,
+      "visits": 14,
+      "distance": 0.15037545191545576,
+      "healthDiff": -4,
+      "actorCooldown": 9,
+      "opponentCooldown": 9,
+      "actorHealth": 10,
+      "opponentHealth": 14,
+      "actorPosition": {
+        "x": 0.9553190437552803,
+        "y": 64,
+        "z": 0.742287265401191
+      },
+      "opponentPosition": {
+        "x": 0.8506309749915131,
+        "y": 64,
+        "z": 0.6343373473961722
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 26,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 317.54868312982614,
+      "visits": 61,
+      "distance": 0.07685122106147135,
+      "healthDiff": 4,
+      "actorCooldown": 8,
+      "opponentCooldown": 9,
+      "actorHealth": 14,
+      "opponentHealth": 10,
+      "actorPosition": {
+        "x": 1.0069832736964675,
+        "y": 64,
+        "z": 0.7991811800425943
+      },
+      "opponentPosition": {
+        "x": 0.9553190437552803,
+        "y": 64,
+        "z": 0.742287265401191
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 26,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -284.72722453370915,
+      "visits": 13,
+      "distance": 0.15718955380993008,
+      "healthDiff": -4,
+      "actorCooldown": 8,
+      "opponentCooldown": 8,
+      "actorHealth": 10,
+      "opponentHealth": 14,
+      "actorPosition": {
+        "x": 1.1149056342042643,
+        "y": 64,
+        "z": 0.9134673118757701
+      },
+      "opponentPosition": {
+        "x": 1.0069832736964675,
+        "y": 64,
+        "z": 0.7991811800425943
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 27,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 320.21625826053065,
+      "visits": 61,
+      "distance": 0.09426141921792523,
+      "healthDiff": 4,
+      "actorCooldown": 7,
+      "opponentCooldown": 8,
+      "actorHealth": 14,
+      "opponentHealth": 10,
+      "actorPosition": {
+        "x": 1.1798212716601968,
+        "y": 64,
+        "z": 0.9818133078570079
+      },
+      "opponentPosition": {
+        "x": 1.1149056342042643,
+        "y": 64,
+        "z": 0.9134673118757701
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 27,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -285.02199676525674,
+      "visits": 6,
+      "distance": 0.16091839463831129,
+      "healthDiff": -4,
+      "actorCooldown": 7,
+      "opponentCooldown": 7,
+      "actorHealth": 10,
+      "opponentHealth": 14,
+      "actorPosition": {
+        "x": 1.2897773510056818,
+        "y": 64,
+        "z": 1.0993053941774946
+      },
+      "opponentPosition": {
+        "x": 1.1798212716601968,
+        "y": 64,
+        "z": 0.9818133078570079
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 28,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 319.13694841951343,
+      "visits": 61,
+      "distance": 0.10377444104659746,
+      "healthDiff": 4,
+      "actorCooldown": 6,
+      "opponentCooldown": 7,
+      "actorHealth": 14,
+      "opponentHealth": 10,
+      "actorPosition": {
+        "x": 1.3612437005266163,
+        "y": 64,
+        "z": 1.1745496331641796
+      },
+      "opponentPosition": {
+        "x": 1.2897773510056818,
+        "y": 64,
+        "z": 1.0993053941774946
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 28,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -302.9581750821904,
+      "visits": 11,
+      "distance": 0.16295268421951117,
+      "healthDiff": -4,
+      "actorCooldown": 6,
+      "opponentCooldown": 6,
+      "actorHealth": 10,
+      "opponentHealth": 14,
+      "actorPosition": {
+        "x": 1.4729939072668055,
+        "y": 64,
+        "z": 1.2931475614254637
+      },
+      "opponentPosition": {
+        "x": 1.3612437005266163,
+        "y": 64,
+        "z": 1.1745496331641796
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 29,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 319.95209223526075,
+      "visits": 31,
+      "distance": 0.10896872330144644,
+      "healthDiff": 4,
+      "actorCooldown": 5,
+      "opponentCooldown": 6,
+      "actorHealth": 14,
+      "opponentHealth": 10,
+      "actorPosition": {
+        "x": 1.547669155644231,
+        "y": 64,
+        "z": 1.3725061774524396
+      },
+      "opponentPosition": {
+        "x": 1.4729939072668055,
+        "y": 64,
+        "z": 1.2931475614254637
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 29,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -314.83116133307016,
+      "visits": 9,
+      "distance": 0.16406402343247142,
+      "healthDiff": -4,
+      "actorCooldown": 5,
+      "opponentCooldown": 5,
+      "actorHealth": 10,
+      "opponentHealth": 14,
+      "actorPosition": {
+        "x": 1.660336211475326,
+        "y": 64,
+        "z": 1.4917669770271678
+      },
+      "opponentPosition": {
+        "x": 1.547669155644231,
+        "y": 64,
+        "z": 1.3725061774524396
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 30,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 319.92739582389123,
+      "visits": 31,
+      "distance": 0.11180516682530739,
+      "healthDiff": 4,
+      "actorCooldown": 4,
+      "opponentCooldown": 5,
+      "actorHealth": 14,
+      "opponentHealth": 10,
+      "actorPosition": {
+        "x": 1.7369464005651951,
+        "y": 64,
+        "z": 1.5731996133374906
+      },
+      "opponentPosition": {
+        "x": 1.660336211475326,
+        "y": 64,
+        "z": 1.4917669770271678
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 30,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "advance",
+      "attack": false,
+      "score": -317.3922365351714,
+      "visits": 22,
+      "distance": 0.13527069458438085,
+      "healthDiff": -4,
+      "actorCooldown": 4,
+      "opponentCooldown": 4,
+      "actorHealth": 10,
+      "opponentHealth": 14,
+      "actorPosition": {
+        "x": 1.829775865624787,
+        "y": 64,
+        "z": 1.6715909301804461
+      },
+      "opponentPosition": {
+        "x": 1.7369464005651951,
+        "y": 64,
+        "z": 1.5731996133374906
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 31,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "advance",
+      "attack": false,
+      "score": 320.0307581990192,
+      "visits": 30,
+      "distance": 0.11335384405234936,
+      "healthDiff": 4,
+      "actorCooldown": 3,
+      "opponentCooldown": 4,
+      "actorHealth": 14,
+      "opponentHealth": 10,
+      "actorPosition": {
+        "x": 1.907544267164144,
+        "y": 64,
+        "z": 1.7540601346355496
+      },
+      "opponentPosition": {
+        "x": 1.829775865624787,
+        "y": 64,
+        "z": 1.6715909301804461
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 31,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "advance",
+      "attack": false,
+      "score": -317.4246890618521,
+      "visits": 21,
+      "distance": 0.11954958216940124,
+      "healthDiff": -4,
+      "actorCooldown": 3,
+      "opponentCooldown": 3,
+      "actorHealth": 10,
+      "opponentHealth": 14,
+      "actorPosition": {
+        "x": 1.9895245695821824,
+        "y": 64,
+        "z": 1.8410735394208204
+      },
+      "opponentPosition": {
+        "x": 1.907544267164144,
+        "y": 64,
+        "z": 1.7540601346355496
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 32,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 318.2263574219766,
+      "visits": 5,
+      "distance": 0.14359946370727392,
+      "healthDiff": 4,
+      "actorCooldown": 2,
+      "opponentCooldown": 3,
+      "actorHealth": 14,
+      "opponentHealth": 10,
+      "actorPosition": {
+        "x": 2.088054409042976,
+        "y": 64,
+        "z": 1.9455372973124783
+      },
+      "opponentPosition": {
+        "x": 1.9895245695821824,
+        "y": 64,
+        "z": 1.8410735394208204
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 32,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -299.4396971792201,
+      "visits": 45,
+      "distance": 0.1109658549740039,
+      "healthDiff": -4,
+      "actorCooldown": 2,
+      "opponentCooldown": 2,
+      "actorHealth": 10,
+      "opponentHealth": 14,
+      "actorPosition": {
+        "x": 2.164162078953881,
+        "y": 64,
+        "z": 2.026290275900543
+      },
+      "opponentPosition": {
+        "x": 2.088054409042976,
+        "y": 64,
+        "z": 1.9455372973124783
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 33,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "advance",
+      "attack": false,
+      "score": 299.9338426535889,
+      "visits": 14,
+      "distance": 0.13071355733871431,
+      "healthDiff": 4,
+      "actorCooldown": 1,
+      "opponentCooldown": 2,
+      "actorHealth": 14,
+      "opponentHealth": 10,
+      "actorPosition": {
+        "x": 2.253827808104226,
+        "y": 64,
+        "z": 2.121401216848881
+      },
+      "opponentPosition": {
+        "x": 2.164162078953881,
+        "y": 64,
+        "z": 2.026290275900543
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 33,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "advance",
+      "attack": false,
+      "score": -288.12926238539427,
+      "visits": 42,
+      "distance": 0.10627914280819079,
+      "healthDiff": -4,
+      "actorCooldown": 1,
+      "opponentCooldown": 1,
+      "actorHealth": 10,
+      "opponentHealth": 14,
+      "actorPosition": {
+        "x": 2.326739358129682,
+        "y": 64,
+        "z": 2.198726258516696
+      },
+      "opponentPosition": {
+        "x": 2.253827808104226,
+        "y": 64,
+        "z": 2.121401216848881
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 34,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "advance",
+      "attack": false,
+      "score": 303.9321680284253,
+      "visits": 46,
+      "distance": 0.12367785461406167,
+      "healthDiff": 4,
+      "actorCooldown": 0,
+      "opponentCooldown": 1,
+      "actorHealth": 14,
+      "opponentHealth": 10,
+      "actorPosition": {
+        "x": 2.4115718523628216,
+        "y": 64,
+        "z": 2.2887243676308393
+      },
+      "opponentPosition": {
+        "x": 2.326739358129682,
+        "y": 64,
+        "z": 2.198726258516696
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 34,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -288.44821108071113,
+      "visits": 45,
+      "distance": 0.1331202095972732,
+      "healthDiff": -4,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 10,
+      "opponentHealth": 14,
+      "actorPosition": {
+        "x": 2.5028921564617352,
+        "y": 64,
+        "z": 2.385582987600896
+      },
+      "opponentPosition": {
+        "x": 2.4115718523628216,
+        "y": 64,
+        "z": 2.2887243676308393
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 35,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "close-attack",
+      "attack": true,
+      "score": 309.29555620979534,
+      "visits": 3,
+      "distance": 0.007563690959137352,
+      "healthDiff": 4,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 14,
+      "opponentHealth": 10,
+      "actorPosition": {
+        "x": 2.497700100528015,
+        "y": 64,
+        "z": 2.3800828079577885
+      },
+      "opponentPosition": {
+        "x": 2.5028921564617352,
+        "y": 64,
+        "z": 2.385582987600896
+      },
+      "controls": {
+        "forward": false,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 35,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "close-attack",
+      "attack": true,
+      "score": -344.5051367930727,
+      "visits": 3,
+      "distance": 0.14777543218249906,
+      "healthDiff": -9,
+      "actorCooldown": 0,
+      "opponentCooldown": 10,
+      "actorHealth": 5,
+      "opponentHealth": 14,
+      "actorPosition": {
+        "x": 2.5990715843510364,
+        "y": 64,
+        "z": 2.4876067616808695
+      },
+      "opponentPosition": {
+        "x": 2.497700100528015,
+        "y": 64,
+        "z": 2.3800828079577885
+      },
+      "controls": {
+        "forward": false,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 36,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 453.9314705800088,
+      "visits": 31,
+      "distance": 0.04817847791271361,
+      "healthDiff": 6,
+      "actorCooldown": 9,
+      "opponentCooldown": 10,
+      "actorHealth": 11,
+      "opponentHealth": 5,
+      "actorPosition": {
+        "x": 2.6321204352879106,
+        "y": 64,
+        "z": 2.5226629905958298
+      },
+      "opponentPosition": {
+        "x": 2.5990715843510364,
+        "y": 64,
+        "z": 2.4876067616808695
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 36,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -404.79288819274404,
+      "visits": 13,
+      "distance": 0.15577718376052163,
+      "healthDiff": -6,
+      "actorCooldown": 9,
+      "opponentCooldown": 9,
+      "actorHealth": 5,
+      "opponentHealth": 11,
+      "actorPosition": {
+        "x": 2.7389777953051855,
+        "y": 64,
+        "z": 2.6360121661133333
+      },
+      "opponentPosition": {
+        "x": 2.6321204352879106,
+        "y": 64,
+        "z": 2.5226629905958298
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 37,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 461.53693394249314,
+      "visits": 61,
+      "distance": 0.07861370124881593,
+      "healthDiff": 6,
+      "actorCooldown": 8,
+      "opponentCooldown": 9,
+      "actorHealth": 11,
+      "opponentHealth": 5,
+      "actorPosition": {
+        "x": 2.7929056387658475,
+        "y": 64,
+        "z": 2.6932127056537993
+      },
+      "opponentPosition": {
+        "x": 2.7389777953051855,
+        "y": 64,
+        "z": 2.6360121661133333
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 37,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -404.91330818634196,
+      "visits": 9,
+      "distance": 0.16014614010204306,
+      "healthDiff": -6,
+      "actorCooldown": 8,
+      "opponentCooldown": 8,
+      "actorHealth": 5,
+      "opponentHealth": 11,
+      "actorPosition": {
+        "x": 2.9027611481099065,
+        "y": 64,
+        "z": 2.8097397551158902
+      },
+      "opponentPosition": {
+        "x": 2.7929056387658475,
+        "y": 64,
+        "z": 2.6932127056537993
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 38,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 464.2154152009728,
+      "visits": 61,
+      "distance": 0.0952313331918273,
+      "healthDiff": 6,
+      "actorCooldown": 7,
+      "opponentCooldown": 8,
+      "actorHealth": 11,
+      "opponentHealth": 5,
+      "actorPosition": {
+        "x": 2.9680870212454424,
+        "y": 64,
+        "z": 2.8790328797428884
+      },
+      "opponentPosition": {
+        "x": 2.9027611481099065,
+        "y": 64,
+        "z": 2.8097397551158902
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 38,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -405.00877166309215,
+      "visits": 6,
+      "distance": 0.16253159027146,
+      "healthDiff": -6,
+      "actorCooldown": 7,
+      "opponentCooldown": 7,
+      "actorHealth": 5,
+      "opponentHealth": 11,
+      "actorPosition": {
+        "x": 3.0795795186028236,
+        "y": 64,
+        "z": 2.9972950498108526
+      },
+      "opponentPosition": {
+        "x": 2.9680870212454424,
+        "y": 64,
+        "z": 2.8790328797428884
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 39,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 463.1562065842019,
+      "visits": 61,
+      "distance": 0.10430456024003967,
+      "healthDiff": 6,
+      "actorCooldown": 6,
+      "opponentCooldown": 7,
+      "actorHealth": 11,
+      "opponentHealth": 5,
+      "actorPosition": {
+        "x": 3.151129218999375,
+        "y": 64,
+        "z": 3.0731902516356833
+      },
+      "opponentPosition": {
+        "x": 3.0795795186028236,
+        "y": 64,
+        "z": 2.9972950498108526
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 39,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -422.957943147765,
+      "visits": 11,
+      "distance": 0.16383404606251825,
+      "healthDiff": -6,
+      "actorCooldown": 6,
+      "opponentCooldown": 6,
+      "actorHealth": 5,
+      "opponentHealth": 11,
+      "actorPosition": {
+        "x": 3.2635148405877765,
+        "y": 64,
+        "z": 3.192400430351278
+      },
+      "opponentPosition": {
+        "x": 3.151129218999375,
+        "y": 64,
+        "z": 3.0731902516356833
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 40,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 463.8723012677598,
+      "visits": 31,
+      "distance": 0.1092585422082096,
+      "healthDiff": 6,
+      "actorCooldown": 5,
+      "opponentCooldown": 6,
+      "actorHealth": 11,
+      "opponentHealth": 5,
+      "actorPosition": {
+        "x": 3.3384631676152194,
+        "y": 64,
+        "z": 3.271899973250911
+      },
+      "opponentPosition": {
+        "x": 3.2635148405877765,
+        "y": 64,
+        "z": 3.192400430351278
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 40,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -434.83100950512016,
+      "visits": 9,
+      "distance": 0.1645451869249712,
+      "healthDiff": -6,
+      "actorCooldown": 5,
+      "opponentCooldown": 5,
+      "actorHealth": 5,
+      "opponentHealth": 11,
+      "actorPosition": {
+        "x": 3.4513364242341718,
+        "y": 64,
+        "z": 3.39162777486944
+      },
+      "opponentPosition": {
+        "x": 3.3384631676152194,
+        "y": 64,
+        "z": 3.271899973250911
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 41,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 463.9264200285565,
+      "visits": 31,
+      "distance": 0.11196341636326083,
+      "healthDiff": 6,
+      "actorCooldown": 4,
+      "opponentCooldown": 5,
+      "actorHealth": 11,
+      "opponentHealth": 5,
+      "actorPosition": {
+        "x": 3.5281402667030015,
+        "y": 64,
+        "z": 3.4730954149835127
+      },
+      "opponentPosition": {
+        "x": 3.4513364242341718,
+        "y": 64,
+        "z": 3.39162777486944
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 41,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "advance",
+      "attack": false,
+      "score": -437.3927564261676,
+      "visits": 22,
+      "distance": 0.13553345827601704,
+      "healthDiff": -6,
+      "actorCooldown": 4,
+      "opponentCooldown": 4,
+      "actorHealth": 5,
+      "opponentHealth": 11,
+      "actorPosition": {
+        "x": 3.6211123559503866,
+        "y": 64,
+        "z": 3.5717134099602568
+      },
+      "opponentPosition": {
+        "x": 3.5281402667030015,
+        "y": 64,
+        "z": 3.4730954149835127
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 42,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "advance",
+      "attack": false,
+      "score": 464.0300098946272,
+      "visits": 30,
+      "distance": 0.1134402776518698,
+      "healthDiff": 6,
+      "actorCooldown": 3,
+      "opponentCooldown": 4,
+      "actorHealth": 11,
+      "opponentHealth": 5,
+      "actorPosition": {
+        "x": 3.6989291959288666,
+        "y": 64,
+        "z": 3.6542557385529064
+      },
+      "opponentPosition": {
+        "x": 3.6211123559503866,
+        "y": 64,
+        "z": 3.5717134099602568
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 42,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "advance",
+      "attack": false,
+      "score": -437.4250865870962,
+      "visits": 21,
+      "distance": 0.11969305443371626,
+      "healthDiff": -6,
+      "actorCooldown": 3,
+      "opponentCooldown": 3,
+      "actorHealth": 5,
+      "opponentHealth": 11,
+      "actorPosition": {
+        "x": 3.781035284864486,
+        "y": 64,
+        "z": 3.7413477441525522
+      },
+      "opponentPosition": {
+        "x": 3.6989291959288666,
+        "y": 64,
+        "z": 3.6542557385529064
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 43,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 462.8456297602168,
+      "visits": 8,
+      "distance": 0.1436466554752621,
+      "healthDiff": 6,
+      "actorCooldown": 2,
+      "opponentCooldown": 3,
+      "actorHealth": 11,
+      "opponentHealth": 5,
+      "actorPosition": {
+        "x": 3.8795728237696814,
+        "y": 64,
+        "z": 3.84586910587223
+      },
+      "opponentPosition": {
+        "x": 3.781035284864486,
+        "y": 64,
+        "z": 3.7413477441525522
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 43,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -419.4398036290358,
+      "visits": 45,
+      "distance": 0.11104419393582617,
+      "healthDiff": -6,
+      "actorCooldown": 2,
+      "opponentCooldown": 2,
+      "actorHealth": 5,
+      "opponentHealth": 11,
+      "actorPosition": {
+        "x": 3.955746031618401,
+        "y": 64,
+        "z": 3.9266679636172075
+      },
+      "opponentPosition": {
+        "x": 3.8795728237696814,
+        "y": 64,
+        "z": 3.84586910587223
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 44,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": 444.32338369824475,
+      "visits": 7,
+      "distance": 0.16013933776682976,
+      "healthDiff": 6,
+      "actorCooldown": 1,
+      "opponentCooldown": 2,
+      "actorHealth": 11,
+      "opponentHealth": 5,
+      "actorPosition": {
+        "x": 4.065597111785696,
+        "y": 64,
+        "z": 4.04318984004596
+      },
+      "opponentPosition": {
+        "x": 3.955746031618401,
+        "y": 64,
+        "z": 3.9266679636172075
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 44,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -407.7311777981285,
+      "visits": 45,
+      "distance": 0.10632191610397942,
+      "healthDiff": -6,
+      "actorCooldown": 1,
+      "opponentCooldown": 1,
+      "actorHealth": 5,
+      "opponentHealth": 11,
+      "actorPosition": {
+        "x": 4.138530949292692,
+        "y": 64,
+        "z": 4.120552655341971
+      },
+      "opponentPosition": {
+        "x": 4.065597111785696,
+        "y": 64,
+        "z": 4.04318984004596
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 45,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "advance",
+      "attack": false,
+      "score": 447.9676866454645,
+      "visits": 46,
+      "distance": 0.13974433073825263,
+      "healthDiff": 6,
+      "actorCooldown": 0,
+      "opponentCooldown": 1,
+      "actorHealth": 11,
+      "opponentHealth": 5,
+      "actorPosition": {
+        "x": 4.234391637107702,
+        "y": 64,
+        "z": 4.222234544118268
+      },
+      "opponentPosition": {
+        "x": 4.138530949292692,
+        "y": 64,
+        "z": 4.120552655341971
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 45,
+      "side": "right",
+      "actor": "Bravo",
+      "opponent": "Alpha",
+      "action": "sprint-advance",
+      "attack": false,
+      "score": -407.4931872389164,
+      "visits": 45,
+      "distance": 0.13314356396756669,
+      "healthDiff": -6,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 5,
+      "opponentHealth": 11,
+      "actorPosition": {
+        "x": 4.3257243721783185,
+        "y": 64,
+        "z": 4.31911354148357
+      },
+      "opponentPosition": {
+        "x": 4.234391637107702,
+        "y": 64,
+        "z": 4.222234544118268
+      },
+      "controls": {
+        "forward": true,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": true,
+        "sneak": false
+      }
+    },
+    {
+      "tick": 46,
+      "side": "left",
+      "actor": "Alpha",
+      "opponent": "Bravo",
+      "action": "close-attack",
+      "attack": true,
+      "score": 452.90196498648635,
+      "visits": 3,
+      "distance": 0.0012086068083152941,
+      "healthDiff": 6,
+      "actorCooldown": 0,
+      "opponentCooldown": 0,
+      "actorHealth": 11,
+      "opponentHealth": 5,
+      "actorPosition": {
+        "x": 4.3265534479335175,
+        "y": 64,
+        "z": 4.319992952541749
+      },
+      "opponentPosition": {
+        "x": 4.3257243721783185,
+        "y": 64,
+        "z": 4.31911354148357
+      },
+      "controls": {
+        "forward": false,
+        "back": false,
+        "left": false,
+        "right": false,
+        "jump": false,
+        "sprint": false,
+        "sneak": false
+      }
+    }
+  ]
+}

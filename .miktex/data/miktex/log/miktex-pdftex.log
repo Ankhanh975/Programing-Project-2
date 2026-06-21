@@ -1,0 +1,5 @@
+2026-06-21 11:06:44,727+0700 INFO  miktex-pdftex - this process (16028) started by miktex-makefmt in directory C:\Users\ankha\AppData\Local\Temp\mik95365 with command line: miktex-pdftex.exe --miktex-enable-installer --miktex-disable-maintenance --miktex-disable-diagnose --interaction=nonstopmode --initialize --halt-on-error --alias=pdflatex --job-name=pdflatex -tcx=cp227.tcx --enable-etex pdflatex.ini
+2026-06-21 11:06:44,727+0700 INFO  miktex-pdftex - running on Windows 10.0.26200
+2026-06-21 11:06:44,727+0700 INFO  miktex-pdftex - this is MiKTeX-PDFTEX 4.27.0 (1.40.29) (MiKTeX 26.5)
+2026-06-21 11:06:44,730+0700 INFO  miktex-pdftex - allowing known shell commands
+2026-06-21 11:06:53,565+0700 INFO  miktex-pdftex - this process (16028) finishes with exit code 0

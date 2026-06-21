@@ -1,0 +1,6 @@
+2026-06-21 11:07:26,238+0700 INFO  miktex-gftopk - this process (23644) started by miktex-makepk in directory C:\Users\ankha\AppData\Local\Temp\mik10884 with command line: miktex-gftopk.exe --miktex-enable-installer --miktex-disable-maintenance --miktex-disable-diagnose tcrm1095.600gf tcrm1095.pk
+2026-06-21 11:07:26,238+0700 INFO  miktex-gftopk - running on Windows 10.0.26200
+2026-06-21 11:07:26,239+0700 INFO  miktex-gftopk - this is MiKTeX-GFTOPK  (MiKTeX 26.5)
+2026-06-21 11:07:26,243+0700 INFO  miktex-gftopk - this process (23644) finishes with exit code 0
+2026-06-21 11:07:26,243+0700 WARN  miktex-gftopk.core - still open: tcrm1095.600gf
+2026-06-21 11:07:26,243+0700 WARN  miktex-gftopk.core - still open: tcrm1095.pk

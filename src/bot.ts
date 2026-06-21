@@ -57,8 +57,8 @@ function resolveConfig(input: BotConfigInput): BotConfig {
     attackReach: parseNumber(input.attackReach, 3.05),
     tickMs: parseNumber(input.tickMs, 100),
     fightTimeoutMs: parseNumber(input.fightTimeoutMs, 0),
-    mctsIterations: parseNumber(input.mctsIterations, 10),
-    rolloutDepth: parseNumber(input.rolloutDepth, 2),
+    mctsIterations: parseNumber(input.mctsIterations, 48),
+    rolloutDepth: parseNumber(input.rolloutDepth, 4),
   };
 }
 

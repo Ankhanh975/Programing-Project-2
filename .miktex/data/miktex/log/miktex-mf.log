@@ -1,0 +1,10 @@
+2026-06-21 11:07:24,773+0700 INFO  miktex-mf - this process (14796) started by miktex-makepk in directory C:\Users\ankha\AppData\Local\Temp\mik10884 with command line: miktex-mf.exe --miktex-enable-installer --miktex-disable-maintenance --miktex-disable-diagnose --undump=mf \mode:=ljfour; \mag:=1+0/600; nonstopmode; "input tcrm1095"
+2026-06-21 11:07:24,774+0700 INFO  miktex-mf - running on Windows 10.0.26200
+2026-06-21 11:07:24,774+0700 INFO  miktex-mf - this is MiKTeX-METAFONT 4.2.0 (2.71828182) (MiKTeX 26.5)
+2026-06-21 11:07:24,811+0700 INFO  miktex-mf - going to create file: mf.base
+2026-06-21 11:07:24,812+0700 INFO  miktex-mf.core - start process: miktex --enable-installer formats build mf
+2026-06-21 11:07:25,527+0700 INFO  miktex-mf - this process (9088) started by miktex-makebase in directory C:\Users\ankha\AppData\Local\Temp\mik68398 with command line: miktex-mf.exe --miktex-enable-installer --miktex-disable-maintenance --miktex-disable-diagnose --initialize --interaction=nonstopmode --halt-on-error -tcx=cp227.tcx mf.ini
+2026-06-21 11:07:25,527+0700 INFO  miktex-mf - running on Windows 10.0.26200
+2026-06-21 11:07:25,527+0700 INFO  miktex-mf - this is MiKTeX-METAFONT 4.2.0 (2.71828182) (MiKTeX 26.5)
+2026-06-21 11:07:25,581+0700 INFO  miktex-mf - this process (9088) finishes with exit code 0
+2026-06-21 11:07:25,931+0700 INFO  miktex-mf - this process (14796) finishes with exit code 0

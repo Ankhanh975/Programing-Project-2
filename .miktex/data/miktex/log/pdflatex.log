@@ -1,0 +1,35 @@
+2026-06-21 11:06:39,936+0700 INFO  pdflatex - this process (17964) started by powershell in directory C:\src\Programming Project 2\Programing-Project-2 with command line: "C:\Program Files\MiKTeX\miktex\bin\x64\pdflatex.exe" -interaction=nonstopmode -halt-on-error report.tex
+2026-06-21 11:06:39,936+0700 INFO  pdflatex - running on Windows 10.0.26200
+2026-06-21 11:06:39,946+0700 INFO  pdflatex - running One MiKTeX Utility to refresh the file name database
+2026-06-21 11:06:39,949+0700 INFO  pdflatex.core - start process: miktex --enable-installer --quiet fndb refresh
+2026-06-21 11:06:43,184+0700 INFO  pdflatex - running One MiKTeX Utility to create font map files
+2026-06-21 11:06:43,184+0700 INFO  pdflatex.core - start process: miktex --enable-installer --quiet fontmaps configure
+2026-06-21 11:06:43,920+0700 INFO  pdflatex - this is MiKTeX-PDFTEX 4.27.0 (1.40.29) (MiKTeX 26.5)
+2026-06-21 11:06:43,933+0700 INFO  pdflatex - allowing known shell commands
+2026-06-21 11:06:43,968+0700 INFO  pdflatex - going to create file: pdflatex.fmt
+2026-06-21 11:06:43,968+0700 INFO  pdflatex.core - start process: miktex --enable-installer formats build pdflatex --engine pdftex
+2026-06-21 11:06:53,788+0700 INFO  pdflatex - installing package geometry triggered by tex/latex/geometry\geometry.sty
+2026-06-21 11:06:53,796+0700 INFO  pdflatex.packagemanager - going to download https://api2.miktex.org/hello
+2026-06-21 11:06:53,917+0700 FATAL pdflatex.core - Couldn't connect to server
+2026-06-21 11:06:53,917+0700 FATAL pdflatex.core - Data: code="7", url="https://api2.miktex.org/hello"
+2026-06-21 11:06:53,917+0700 FATAL pdflatex.core - Source: Libraries\MiKTeX\PackageManager\CurlWebSession.cpp:247
+2026-06-21 11:06:53,918+0700 FATAL pdflatex - Couldn't connect to server
+2026-06-21 11:06:53,918+0700 FATAL pdflatex - Info: code="7", url="https://api2.miktex.org/hello"
+2026-06-21 11:06:53,918+0700 FATAL pdflatex - Source: Libraries\MiKTeX\PackageManager\CurlWebSession.cpp
+2026-06-21 11:06:53,918+0700 FATAL pdflatex - Line: 247
+2026-06-21 11:06:53,922+0700 INFO  pdflatex - this process (17964) finishes with exit code 1
+2026-06-21 11:06:53,931+0700 ERROR pdflatex - major issue: So far, no MiKTeX administrator has checked for updates.
+2026-06-21 11:06:53,931+0700 WARN  pdflatex.core - still open: report.tex
+2026-06-21 11:07:23,958+0700 INFO  pdflatex - this process (13504) started by powershell in directory C:\src\Programming Project 2\Programing-Project-2 with command line: "C:\Program Files\MiKTeX\miktex\bin\x64\pdflatex.exe" -interaction=nonstopmode -halt-on-error report.tex
+2026-06-21 11:07:23,959+0700 INFO  pdflatex - running on Windows 10.0.26200
+2026-06-21 11:07:23,961+0700 INFO  pdflatex - this is MiKTeX-PDFTEX 4.27.0 (1.40.29) (MiKTeX 26.5)
+2026-06-21 11:07:23,964+0700 INFO  pdflatex - allowing known shell commands
+2026-06-21 11:07:24,200+0700 INFO  pdflatex.core - start process: miktex-makepk --enable-installer --verbose tcrm1095 600 600 1+0/600
+2026-06-21 11:07:26,445+0700 INFO  pdflatex - this process (13504) finishes with exit code 0
+2026-06-21 11:07:26,447+0700 ERROR pdflatex - major issue: So far, no MiKTeX administrator has checked for updates.
+2026-06-21 11:07:40,683+0700 INFO  pdflatex - this process (19792) started by powershell in directory C:\src\Programming Project 2\Programing-Project-2 with command line: "C:\Program Files\MiKTeX\miktex\bin\x64\pdflatex.exe" -interaction=nonstopmode -halt-on-error report.tex
+2026-06-21 11:07:40,683+0700 INFO  pdflatex - running on Windows 10.0.26200
+2026-06-21 11:07:40,685+0700 INFO  pdflatex - this is MiKTeX-PDFTEX 4.27.0 (1.40.29) (MiKTeX 26.5)
+2026-06-21 11:07:40,689+0700 INFO  pdflatex - allowing known shell commands
+2026-06-21 11:07:40,891+0700 INFO  pdflatex - this process (19792) finishes with exit code 0
+2026-06-21 11:07:40,892+0700 ERROR pdflatex - major issue: So far, no MiKTeX administrator has checked for updates.

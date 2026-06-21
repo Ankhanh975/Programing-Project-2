@@ -24,6 +24,14 @@ Physics duel mode:
 npm run dev -- --mode physics
 ```
 
+Report materials:
+
+```bash
+npm run report
+```
+
+This writes CSV tables, raw JSON, and SVG visuals to `debug/report`.
+
 ## Configuration
 
 Common options come from environment variables or CLI flags:
@@ -37,8 +45,8 @@ Common options come from environment variables or CLI flags:
 - `DUEL_ATTACK_REACH` / `--attack-reach` - melee range threshold, default `3.05`
 - `DUEL_TICK_MS` / `--tick-ms` - combat loop interval in server mode, default `100`
 - `DUEL_TIMEOUT_MS` / `--fight-timeout-ms` - optional timeout in server mode
-- `MCTS_ITERATIONS` / `--mcts-iterations` - search budget per decision, default `10`
-- `MCTS_ROLLOUT_DEPTH` / `--rollout-depth` - rollout horizon for search, default `2`
+- `MCTS_ITERATIONS` / `--mcts-iterations` - search budget per decision, default `48`
+- `MCTS_ROLLOUT_DEPTH` / `--rollout-depth` - rollout horizon for search, default `4`
 
 ## Notes
 

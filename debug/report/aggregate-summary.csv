@@ -1,0 +1,6 @@
+variant,runs,alphaWinRate,meanTicks,varianceTicks,meanAttacks,varianceAttacks,meanFirstAttackTick,meanAverageDistance,meanMctsVisits
+Standard MCTS,3,0.667,58,0.667,9,0,14,1.649,15.397
+Hybrid MCTS + heuristic evaluation,3,0,57.333,0.222,9,0,13.333,1.535,16.274
+Risk-aware MCTS,3,0.333,56,0.667,9,0,12,1.371,15.473
+High-exploration MCTS,3,1,57.667,0.889,9,0,13.667,1.598,14.986
+Higher-budget MCTS,3,1,56,0.667,9,0,12,1.333,19.203
