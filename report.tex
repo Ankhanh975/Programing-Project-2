@@ -7,7 +7,7 @@
 \usepackage{graphicx}
 \usepackage{xcolor}
 
-\title{Creative Variations of Monte Carlo Tree Search for a Minecraft Sword PvP Agent}
+\title{Variations of Monte Carlo Tree Search for a Minecraft Sword PvP Agent}
 \author{Nguyen Huy An Khanh}
 \date{COMP2050 Programming Project\\Instructor: Leandro S. Marcolino\\June 21, 2026}
 
@@ -38,7 +38,9 @@ The research questions are:
 
 \section{Related Work}
 
-MCTS is widely used in game AI because it can choose actions without exhaustively searching the full game tree. The algorithm repeats selection, expansion, simulation, and backpropagation. Upper Confidence Bounds for Trees (UCT) balances exploiting actions with high current value against exploring less-visited actions. MCTS is best known from board games such as Go. AlphaGo later showed that tree search can be even stronger when guided by learned policy and value models, although this project uses a much smaller hand-designed evaluation because training deep networks is outside the project scope. The same planning idea can be adapted to real-time games by limiting the number of search iterations per decision.
+Monte Carlo Tree Search was popularized by the UCT algorithm introduced by Kocsis and Szepesvári, which combines tree search with upper-confidence exploration. MCTS is widely used in game AI because it can choose actions without exhaustively searching the full game tree. The algorithm repeats selection, expansion, simulation, and backpropagation while balancing exploitation and exploration.
+
+A major milestone was the original AlphaGo system (Silver et al., 2016), which combined MCTS with deep policy and value networks to achieve superhuman performance in Go. AlphaGo demonstrated that tree search can be significantly strengthened when guided by learned models. Although this project does not use neural networks, AlphaGo motivates the idea of enhancing a standard MCTS framework with additional guidance mechanisms. The same planning idea can also be adapted to real-time games by limiting the number of search iterations per decision.
 
 Minecraft bot development commonly uses Mineflayer, a JavaScript API that exposes player entities, inventory, movement controls, chat, and attack actions. Prismarine-physics approximates Minecraft movement and collision behavior locally. In this project, these libraries provide the environment layer, while the combat search logic is implemented separately.
 
