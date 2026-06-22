@@ -11,26 +11,34 @@
   
       <text x="206" y="95" text-anchor="end" class="label">sprint-advance</text>
       <rect x="220" y="75" width="650" height="28" rx="4" fill="#0f766e"/>
-      <text x="880" y="95" class="small">1339</text>
+      <text x="880" y="95" class="small">3123</text>
     
       <text x="206" y="135" text-anchor="end" class="label">advance</text>
-      <rect x="220" y="115" width="119.41747572815535" height="28" rx="4" fill="#0f766e"/>
-      <text x="349.41747572815535" y="135" class="small">246</text>
+      <rect x="220" y="115" width="149.85590778097983" height="28" rx="4" fill="#0f766e"/>
+      <text x="379.8559077809798" y="135" class="small">720</text>
     
       <text x="206" y="175" text-anchor="end" class="label">close-attack</text>
-      <rect x="220" y="155" width="88.3495145631068" height="28" rx="4" fill="#0f766e"/>
-      <text x="318.3495145631068" y="175" class="small">182</text>
+      <rect x="220" y="155" width="86.79154658981747" height="28" rx="4" fill="#0f766e"/>
+      <text x="316.7915465898175" y="175" class="small">417</text>
     
-      <text x="206" y="215" text-anchor="end" class="label">jump-sprint</text>
-      <rect x="220" y="195" width="27.669902912621357" height="28" rx="4" fill="#0f766e"/>
-      <text x="257.66990291262135" y="215" class="small">57</text>
+      <text x="206" y="215" text-anchor="end" class="label">jump-advance</text>
+      <rect x="220" y="195" width="32.26064681396094" height="28" rx="4" fill="#0f766e"/>
+      <text x="262.26064681396093" y="215" class="small">155</text>
     
-      <text x="206" y="255" text-anchor="end" class="label">jump-advance</text>
-      <rect x="220" y="235" width="22.33009708737864" height="28" rx="4" fill="#0f766e"/>
-      <text x="252.33009708737865" y="255" class="small">46</text>
+      <text x="206" y="255" text-anchor="end" class="label">jump-sprint</text>
+      <rect x="220" y="235" width="29.13864873519052" height="28" rx="4" fill="#0f766e"/>
+      <text x="259.1386487351905" y="255" class="small">140</text>
     
       <text x="206" y="295" text-anchor="end" class="label">hold-attack</text>
-      <rect x="220" y="275" width="3.883495145631068" height="28" rx="4" fill="#0f766e"/>
-      <text x="233.88349514563106" y="295" class="small">8</text>
+      <rect x="220" y="275" width="8.533461415305796" height="28" rx="4" fill="#0f766e"/>
+      <text x="238.5334614153058" y="295" class="small">41</text>
+    
+      <text x="206" y="335" text-anchor="end" class="label">retreat-right</text>
+      <rect x="220" y="315" width="0.20813320525136086" height="28" rx="4" fill="#0f766e"/>
+      <text x="230.20813320525136" y="335" class="small">1</text>
+    
+      <text x="206" y="375" text-anchor="end" class="label">retreat-left</text>
+      <rect x="220" y="355" width="0.20813320525136086" height="28" rx="4" fill="#0f766e"/>
+      <text x="230.20813320525136" y="375" class="small">1</text>
     
 </svg>

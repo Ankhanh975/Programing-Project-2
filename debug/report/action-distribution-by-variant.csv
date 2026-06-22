@@ -1,0 +1,36 @@
+variant,action,count,percent
+Standard MCTS,sprint-advance,617,68.939
+Standard MCTS,advance,135,15.084
+Standard MCTS,close-attack,86,9.609
+Standard MCTS,jump-sprint,21,2.346
+Standard MCTS,jump-advance,27,3.017
+Standard MCTS,hold-attack,9,1.006
+Standard MCTS,other,0,0
+Hybrid MCTS + heuristic evaluation,sprint-advance,622,69.575
+Hybrid MCTS + heuristic evaluation,advance,121,13.535
+Hybrid MCTS + heuristic evaluation,close-attack,77,8.613
+Hybrid MCTS + heuristic evaluation,jump-sprint,42,4.698
+Hybrid MCTS + heuristic evaluation,jump-advance,22,2.461
+Hybrid MCTS + heuristic evaluation,hold-attack,8,0.895
+Hybrid MCTS + heuristic evaluation,other,2,0.224
+Risk-aware MCTS,sprint-advance,575,66.016
+Risk-aware MCTS,advance,145,16.648
+Risk-aware MCTS,close-attack,80,9.185
+Risk-aware MCTS,jump-sprint,22,2.526
+Risk-aware MCTS,jump-advance,41,4.707
+Risk-aware MCTS,hold-attack,8,0.918
+Risk-aware MCTS,other,0,0
+High-exploration MCTS,sprint-advance,587,66.328
+High-exploration MCTS,advance,158,17.853
+High-exploration MCTS,close-attack,73,8.249
+High-exploration MCTS,jump-sprint,27,3.051
+High-exploration MCTS,jump-advance,27,3.051
+High-exploration MCTS,hold-attack,13,1.469
+High-exploration MCTS,other,0,0
+Higher-budget MCTS,sprint-advance,592,67.58
+Higher-budget MCTS,advance,138,15.753
+Higher-budget MCTS,close-attack,83,9.475
+Higher-budget MCTS,jump-sprint,25,2.854
+Higher-budget MCTS,jump-advance,36,4.11
+Higher-budget MCTS,hold-attack,2,0.228
+Higher-budget MCTS,other,0,0

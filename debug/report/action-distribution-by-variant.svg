@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img" aria-label="Action distribution by strategy variant">
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #0f172a; }
+    .title { font-size: 26px; font-weight: 700; }
+    .label { font-size: 15px; }
+    .small { font-size: 14px; fill: #334155; }
+    .tiny { font-size: 10px; fill: #334155; }
+  </style>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="40" y="34" class="title">Action distribution by strategy variant</text>
+  
+    
+      <text x="282" y="117" text-anchor="end" class="label">Standard MCTS</text>
+      <rect x="300" y="90" width="680" height="42" fill="#e2e8f0"/>
+      <rect x="300" y="90" width="468.7852" height="42" fill="#2563eb"><title>sprint-advance: 68.939%</title></rect><rect x="768.7852" y="90" width="102.5712" height="42" fill="#16a34a"><title>advance: 15.084%</title></rect><rect x="871.3564" y="90" width="65.3412" height="42" fill="#dc2626"><title>close-attack: 9.609%</title></rect><rect x="936.6976" y="90" width="15.952800000000002" height="42" fill="#f59e0b"><title>jump-sprint: 2.346%</title></rect><rect x="952.6504" y="90" width="20.5156" height="42" fill="#7c3aed"><title>jump-advance: 3.017%</title></rect><rect x="973.1659999999999" y="90" width="6.8408" height="42" fill="#64748b"><title>hold-attack: 1.006%</title></rect><rect x="980.0067999999999" y="90" width="0" height="42" fill="#94a3b8"><title>other: 0%</title></rect>
+    
+      <text x="282" y="183" text-anchor="end" class="label">Hybrid MCTS + heuristic evaluation</text>
+      <rect x="300" y="156" width="680" height="42" fill="#e2e8f0"/>
+      <rect x="300" y="156" width="473.11" height="42" fill="#2563eb"><title>sprint-advance: 69.575%</title></rect><rect x="773.11" y="156" width="92.038" height="42" fill="#16a34a"><title>advance: 13.535%</title></rect><rect x="865.148" y="156" width="58.5684" height="42" fill="#dc2626"><title>close-attack: 8.613%</title></rect><rect x="923.7164" y="156" width="31.9464" height="42" fill="#f59e0b"><title>jump-sprint: 4.698%</title></rect><rect x="955.6628000000001" y="156" width="16.7348" height="42" fill="#7c3aed"><title>jump-advance: 2.461%</title></rect><rect x="972.3976" y="156" width="6.085999999999999" height="42" fill="#64748b"><title>hold-attack: 0.895%</title></rect><rect x="978.4836" y="156" width="1.5232" height="42" fill="#94a3b8"><title>other: 0.224%</title></rect>
+    
+      <text x="282" y="249" text-anchor="end" class="label">Risk-aware MCTS</text>
+      <rect x="300" y="222" width="680" height="42" fill="#e2e8f0"/>
+      <rect x="300" y="222" width="448.90880000000004" height="42" fill="#2563eb"><title>sprint-advance: 66.016%</title></rect><rect x="748.9088" y="222" width="113.20639999999999" height="42" fill="#16a34a"><title>advance: 16.648%</title></rect><rect x="862.1152000000001" y="222" width="62.458" height="42" fill="#dc2626"><title>close-attack: 9.185%</title></rect><rect x="924.5732" y="222" width="17.1768" height="42" fill="#f59e0b"><title>jump-sprint: 2.526%</title></rect><rect x="941.75" y="222" width="32.007600000000004" height="42" fill="#7c3aed"><title>jump-advance: 4.707%</title></rect><rect x="973.7576" y="222" width="6.242400000000001" height="42" fill="#64748b"><title>hold-attack: 0.918%</title></rect><rect x="980" y="222" width="0" height="42" fill="#94a3b8"><title>other: 0%</title></rect>
+    
+      <text x="282" y="315" text-anchor="end" class="label">High-exploration MCTS</text>
+      <rect x="300" y="288" width="680" height="42" fill="#e2e8f0"/>
+      <rect x="300" y="288" width="451.0304" height="42" fill="#2563eb"><title>sprint-advance: 66.328%</title></rect><rect x="751.0304" y="288" width="121.40040000000002" height="42" fill="#16a34a"><title>advance: 17.853%</title></rect><rect x="872.4308" y="288" width="56.0932" height="42" fill="#dc2626"><title>close-attack: 8.249%</title></rect><rect x="928.524" y="288" width="20.7468" height="42" fill="#f59e0b"><title>jump-sprint: 3.051%</title></rect><rect x="949.2708" y="288" width="20.7468" height="42" fill="#7c3aed"><title>jump-advance: 3.051%</title></rect><rect x="970.0176" y="288" width="9.9892" height="42" fill="#64748b"><title>hold-attack: 1.469%</title></rect><rect x="980.0068" y="288" width="0" height="42" fill="#94a3b8"><title>other: 0%</title></rect>
+    
+      <text x="282" y="381" text-anchor="end" class="label">Higher-budget MCTS</text>
+      <rect x="300" y="354" width="680" height="42" fill="#e2e8f0"/>
+      <rect x="300" y="354" width="459.544" height="42" fill="#2563eb"><title>sprint-advance: 67.58%</title></rect><rect x="759.544" y="354" width="107.1204" height="42" fill="#16a34a"><title>advance: 15.753%</title></rect><rect x="866.6644" y="354" width="64.43" height="42" fill="#dc2626"><title>close-attack: 9.475%</title></rect><rect x="931.0944" y="354" width="19.4072" height="42" fill="#f59e0b"><title>jump-sprint: 2.854%</title></rect><rect x="950.5015999999999" y="354" width="27.948000000000004" height="42" fill="#7c3aed"><title>jump-advance: 4.11%</title></rect><rect x="978.4495999999999" y="354" width="1.5504" height="42" fill="#64748b"><title>hold-attack: 0.228%</title></rect><rect x="979.9999999999999" y="354" width="0" height="42" fill="#94a3b8"><title>other: 0%</title></rect>
+    
+    <rect x="70" y="467" width="16" height="16" fill="#2563eb"/><text x="94" y="480" class="small">sprint-advance</text><rect x="70" y="493" width="16" height="16" fill="#16a34a"/><text x="94" y="506" class="small">advance</text><rect x="70" y="519" width="16" height="16" fill="#dc2626"/><text x="94" y="532" class="small">close-attack</text><rect x="70" y="545" width="16" height="16" fill="#f59e0b"/><text x="94" y="558" class="small">jump-sprint</text><rect x="70" y="571" width="16" height="16" fill="#7c3aed"/><text x="94" y="584" class="small">jump-advance</text><rect x="70" y="597" width="16" height="16" fill="#64748b"/><text x="94" y="610" class="small">hold-attack</text><rect x="70" y="623" width="16" height="16" fill="#94a3b8"/><text x="94" y="636" class="small">other</text>
+  
+</svg>

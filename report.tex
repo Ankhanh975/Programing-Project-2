@@ -5,6 +5,7 @@
 \usepackage{hyperref}
 \usepackage{longtable}
 \usepackage{graphicx}
+\usepackage{xcolor}
 
 \title{Creative Variations of Monte Carlo Tree Search for a Minecraft Sword PvP Agent}
 \author{Nguyen Huy An Khanh}
@@ -14,8 +15,12 @@
 
 \maketitle
 
+\begin{center}
+\textbf{Project repository:} \url{https://github.com/Ankhanh975/Programing-Project-2}
+\end{center}
+
 \begin{abstract}
-This project studies Monte Carlo Tree Search (MCTS) for real-time sword combat in a Minecraft-like environment. The agent is implemented in TypeScript with Mineflayer for server interaction and prismarine-physics for a repeatable local duel simulator. Beyond a standard MCTS controller, the project implements and evaluates several variations: hybrid MCTS with a heuristic action bonus, risk-aware MCTS, high-exploration MCTS, and higher-budget MCTS. The final experiment generator produced 17 duel runs and 1,878 logged decisions, including 15 repeated strategy trials and two stress-test scenarios. The results show that the planner learns plausible combat behavior, especially closing distance before attacking, but also that stronger search settings can matter more than a hand-designed heuristic bonus in this simulator.
+This project studies Monte Carlo Tree Search (MCTS) for real-time sword combat in a Minecraft-like environment. The agent is implemented in TypeScript with Mineflayer for server interaction and prismarine-physics for a repeatable local duel simulator. Beyond a standard MCTS controller, the project implements and evaluates several variations: hybrid MCTS with a heuristic action bonus, risk-aware MCTS, high-exploration MCTS, and higher-budget MCTS. The final experiment generator produced 42 duel runs and 4,598 logged decisions, including 40 repeated strategy trials and two stress-test scenarios. The results show that the planner learns plausible combat behavior, especially closing distance before attacking, but also that stronger search settings can matter more than a hand-designed heuristic bonus in this simulator.
 \end{abstract}
 
 \section{Introduction}
@@ -80,7 +85,7 @@ These variations are intentionally not guaranteed to improve the result. They ar
 
 \section{Experimental Evaluation}
 
-The evaluation uses physics mode because it is repeatable and fast enough for multiple runs. The report generator creates five strategy variants with three repeated trials each, using small deterministic jitter in the starting positions. It also creates two stress-test scenarios: a wide-arena opening and a low-health opening.
+The evaluation uses physics mode because it is repeatable and fast enough for multiple runs. The report generator creates five strategy variants with eight repeated trials each. The trials use independent deterministic jitter in the starting positions and rotate through four opponent styles: balanced, defensive, aggressive, and stronger-search opponents. This avoids over-interpreting a small number of nearly identical deterministic duels. The generator also creates two stress-test scenarios: a wide-arena opening and a low-health opening.
 
 Each logged decision records the selected action, attack flag, rollout score, visit count, distance, health difference, cooldowns, positions, and movement controls. The generated files are stored in \path{debug/report/}. The most important files are \path{aggregate-summary.csv}, \path{summary.csv}, \path{episodes.csv}, \path{action-counts.csv}, and \path{tick-series.csv}.
 
@@ -88,11 +93,11 @@ The measurements are winner, final health, fight length, first attack tick, numb
 
 \section{Results}
 
-Table~\ref{tab:aggregate} summarizes the repeated strategy trials. Higher-budget MCTS and high-exploration MCTS won all three trials for Alpha in this experiment. Standard MCTS won two of three. The hybrid heuristic version did not improve the win rate here, despite closing distance slightly earlier on average. This is a useful negative result: the heuristic bonus changed behavior, but it did not automatically make the agent stronger.
+Table~\ref{tab:aggregate} summarizes the repeated strategy trials. Standard MCTS and high-exploration MCTS had the best Alpha win rate at 0.625. Higher-budget MCTS won half of its runs while using the most search visits on average. The hybrid heuristic version had the lowest win rate in this setting, despite using more visits than standard MCTS. This is a useful negative result: the heuristic bonus changed behavior, but it did not automatically make the agent stronger against varied opponents.
 
 \begin{table}[h]
 \centering
-\caption{Aggregate results from three repeated trials per strategy variant.}
+\caption{Aggregate results from eight repeated trials per strategy variant.}
 \label{tab:aggregate}
 \small
 \resizebox{\linewidth}{!}{%
@@ -100,11 +105,11 @@ Table~\ref{tab:aggregate} summarizes the repeated strategy trials. Higher-budget
 \toprule
 Variant & Runs & Alpha Win Rate & Mean Ticks & Var. Ticks & Mean First Attack & Mean Visits \\
 \midrule
-Standard MCTS & 3 & 0.667 & 58.000 & 0.667 & 14.000 & 15.397 \\
-Hybrid MCTS + heuristic evaluation & 3 & 0.000 & 57.333 & 0.222 & 13.333 & 16.274 \\
-Risk-aware MCTS & 3 & 0.333 & 56.000 & 0.667 & 12.000 & 15.473 \\
-High-exploration MCTS & 3 & 1.000 & 57.667 & 0.889 & 13.667 & 14.986 \\
-Higher-budget MCTS & 3 & 1.000 & 56.000 & 0.667 & 12.000 & 19.203 \\
+Standard MCTS & 8 & 0.625 & 56.250 & 10.188 & 13.625 & 14.304 \\
+Hybrid MCTS + heuristic evaluation & 8 & 0.250 & 56.000 & 14.750 & 13.375 & 15.733 \\
+Risk-aware MCTS & 8 & 0.375 & 54.625 & 21.734 & 13.375 & 14.112 \\
+High-exploration MCTS & 8 & 0.625 & 55.625 & 16.734 & 13.000 & 14.024 \\
+Higher-budget MCTS & 8 & 0.500 & 55.000 & 19.500 & 12.250 & 20.063 \\
 \bottomrule
 \end{tabular}
 }
@@ -116,14 +121,66 @@ Higher-budget MCTS & 3 & 1.000 & 56.000 & 0.667 & 12.000 & 19.203 \\
 \fbox{\begin{minipage}{0.86\linewidth}
 \small
 \textbf{Alpha win rate by strategy variant}\\[4pt]
-Standard MCTS \hfill 0.667 \quad \rule{0.40\linewidth}{6pt}\\[4pt]
-Hybrid heuristic \hfill 0.000 \quad \rule{0.01\linewidth}{6pt}\\[4pt]
-Risk-aware \hfill 0.333 \quad \rule{0.20\linewidth}{6pt}\\[4pt]
-High exploration \hfill 1.000 \quad \rule{0.60\linewidth}{6pt}\\[4pt]
-Higher budget \hfill 1.000 \quad \rule{0.60\linewidth}{6pt}
+Standard MCTS \hfill 0.625 \quad \textcolor{blue!70!black}{\rule{0.375\linewidth}{6pt}}\\[4pt]
+Hybrid heuristic \hfill 0.250 \quad \textcolor{blue!70!black}{\rule{0.150\linewidth}{6pt}}\\[4pt]
+Risk-aware \hfill 0.375 \quad \textcolor{blue!70!black}{\rule{0.225\linewidth}{6pt}}\\[4pt]
+High exploration \hfill 0.625 \quad \textcolor{blue!70!black}{\rule{0.375\linewidth}{6pt}}\\[4pt]
+Higher budget \hfill 0.500 \quad \textcolor{blue!70!black}{\rule{0.300\linewidth}{6pt}}
 \end{minipage}}
-\caption{In-report bar chart of Alpha win rate across repeated strategy trials.}
+\caption{Alpha win rate across repeated strategy trials. The full generated chart is also saved as \texttt{debug/report/win-rate-by-variant.svg}.}
 \label{fig:winrate}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\setlength{\fboxsep}{8pt}
+\fbox{\begin{minipage}{0.94\linewidth}
+\small
+\textbf{Action distribution by strategy variant}\\[6pt]
+Standard MCTS\hfill
+\textcolor{blue!70!black}{\rule{0.414\linewidth}{6pt}}
+\textcolor{green!50!black}{\rule{0.091\linewidth}{6pt}}
+\textcolor{red!70!black}{\rule{0.058\linewidth}{6pt}}
+\textcolor{orange!90!black}{\rule{0.014\linewidth}{6pt}}
+\textcolor{purple!80!black}{\rule{0.018\linewidth}{6pt}}
+\textcolor{gray}{\rule{0.006\linewidth}{6pt}}\\[4pt]
+Hybrid heuristic\hfill
+\textcolor{blue!70!black}{\rule{0.417\linewidth}{6pt}}
+\textcolor{green!50!black}{\rule{0.081\linewidth}{6pt}}
+\textcolor{red!70!black}{\rule{0.052\linewidth}{6pt}}
+\textcolor{orange!90!black}{\rule{0.028\linewidth}{6pt}}
+\textcolor{purple!80!black}{\rule{0.015\linewidth}{6pt}}
+\textcolor{gray}{\rule{0.005\linewidth}{6pt}}\\[4pt]
+Risk-aware\hfill
+\textcolor{blue!70!black}{\rule{0.396\linewidth}{6pt}}
+\textcolor{green!50!black}{\rule{0.100\linewidth}{6pt}}
+\textcolor{red!70!black}{\rule{0.055\linewidth}{6pt}}
+\textcolor{orange!90!black}{\rule{0.015\linewidth}{6pt}}
+\textcolor{purple!80!black}{\rule{0.028\linewidth}{6pt}}
+\textcolor{gray}{\rule{0.006\linewidth}{6pt}}\\[4pt]
+High exploration\hfill
+\textcolor{blue!70!black}{\rule{0.398\linewidth}{6pt}}
+\textcolor{green!50!black}{\rule{0.107\linewidth}{6pt}}
+\textcolor{red!70!black}{\rule{0.049\linewidth}{6pt}}
+\textcolor{orange!90!black}{\rule{0.018\linewidth}{6pt}}
+\textcolor{purple!80!black}{\rule{0.018\linewidth}{6pt}}
+\textcolor{gray}{\rule{0.009\linewidth}{6pt}}\\[4pt]
+Higher budget\hfill
+\textcolor{blue!70!black}{\rule{0.405\linewidth}{6pt}}
+\textcolor{green!50!black}{\rule{0.095\linewidth}{6pt}}
+\textcolor{red!70!black}{\rule{0.057\linewidth}{6pt}}
+\textcolor{orange!90!black}{\rule{0.017\linewidth}{6pt}}
+\textcolor{purple!80!black}{\rule{0.025\linewidth}{6pt}}
+\textcolor{gray}{\rule{0.001\linewidth}{6pt}}\\[8pt]
+\textcolor{blue!70!black}{\rule{0.04\linewidth}{6pt}} sprint-advance \quad
+\textcolor{green!50!black}{\rule{0.04\linewidth}{6pt}} advance \quad
+\textcolor{red!70!black}{\rule{0.04\linewidth}{6pt}} close-attack \quad
+\textcolor{orange!90!black}{\rule{0.04\linewidth}{6pt}} jump-sprint \quad
+\textcolor{purple!80!black}{\rule{0.04\linewidth}{6pt}} jump-advance \quad
+\textcolor{gray}{\rule{0.04\linewidth}{6pt}} hold/other
+\end{minipage}}
+\caption{Stacked action distribution by strategy variant. Bar segments are proportional to the percentage of logged decisions for that variant. The full generated chart is saved as \texttt{debug/report/action-distribution-by-variant.svg}.}
+\label{fig:actiondistribution}
 \end{figure}
 
 Table~\ref{tab:examples} shows individual stress-test runs. The wide-arena example delays the first attack until tick 20 because the fighters start farther apart. The low-health example is won by Bravo, which shows that the simulator is not hard-coded to make Alpha win.
@@ -143,23 +200,23 @@ Low-health example & Bravo & 70 & 35 & 6 & 0 & 13 \\
 \end{tabular}
 \end{table}
 
-Across all runs, movement actions dominate early decisions. The most common action remains \texttt{sprint-advance}, which is expected because most duels begin outside melee range. Attack actions appear only after the fighters have moved into sword reach and cooldown conditions allow damage. This supports the claim that the planner is coordinating approach and attack timing rather than simply attacking every tick.
+Across all runs, movement actions dominate early decisions. Figure~\ref{fig:actiondistribution} shows that every strategy uses \texttt{sprint-advance} for roughly two thirds of logged decisions, which is expected because most duels begin outside melee range. The variants still differ in smaller ways: high-exploration MCTS uses the most \texttt{advance}, risk-aware MCTS uses more \texttt{jump-advance}, and hybrid MCTS uses more \texttt{jump-sprint}. Attack actions appear only after the fighters have moved into sword reach and cooldown conditions allow damage. This supports the claim that the planner is coordinating approach and attack timing rather than simply attacking every tick.
 
 \section{Discussion}
 
-The results suggest that search budget and exploration can matter more than a hand-designed heuristic bonus. Higher-budget MCTS achieved the highest average visit count and won all repeated trials. High-exploration MCTS also won all repeated trials, suggesting that trying a broader set of actions helps in the jittered openings.
+The results suggest that exploration and opponent diversity matter. Standard MCTS and high-exploration MCTS achieved the best Alpha win rate, while higher-budget MCTS produced the largest average visit count and the earliest mean first attack tick. More search effort therefore changed behavior, but it did not dominate every opponent style.
 
-The hybrid heuristic variation is more subtle. It reached first contact slightly earlier than standard MCTS, but it lost all three repeated trials. A likely explanation is that the heuristic bonus made the agent overvalue immediate attack windows or close spacing, while the opponent's response punished that positioning. This is a good example of reward shaping risk: a plausible hand-written heuristic can produce worse strategic behavior if it is not aligned with long-term survival.
+The hybrid heuristic variation is more subtle. It increased average visits relative to standard MCTS but achieved a lower win rate. A likely explanation is that the heuristic bonus made the agent overvalue immediate attack windows or close spacing, while defensive and stronger-search opponents punished that positioning. This is a good example of reward shaping risk: a plausible hand-written heuristic can produce worse strategic behavior if it is not aligned with long-term survival.
 
-The risk-aware variation won one of three repeated trials and produced the earliest mean first attack tick. In the low-health stress test, however, Alpha still lost. This indicates that defensive spacing alone is not enough when the health and damage disadvantage is large. More realistic defensive behavior would need knockback, shield timing, terrain use, or a better opponent model.
+The risk-aware variation won three of eight repeated trials. In the low-health stress test, however, Alpha still lost. This indicates that defensive spacing alone is not enough when the health and damage disadvantage is large. More realistic defensive behavior would need knockback, shield timing, terrain use, or a better opponent model.
 
-The main limitation is simulator fidelity. The local prismarine-physics duel approximates movement and cooldowns, but real Minecraft combat includes latency, knockback, shields, item effects, terrain, server version differences, and human unpredictability. Another limitation is sample size: three repeated trials per variant is enough to study mean and variance at a basic level, but not enough for strong statistical claims. A larger study should run dozens or hundreds of randomized openings per variant.
+The main limitation is simulator fidelity. The local prismarine-physics duel approximates movement and cooldowns, but real Minecraft combat includes latency, knockback, shields, item effects, terrain, server version differences, and human unpredictability. Another limitation is sample size: eight repeated trials per variant is enough to study mean and variance at a basic level, but not enough for strong statistical claims. A larger study should run dozens or hundreds of randomized openings per variant.
 
 \section{Conclusion}
 
-This project implements a Minecraft sword PvP agent based on Monte Carlo Tree Search and evaluates several creative variations of the algorithm. The final system supports Mineflayer server play and local prismarine-physics experiments. The report data includes 17 duel runs and 1,878 logged decisions.
+This project implements a Minecraft sword PvP agent based on Monte Carlo Tree Search and evaluates several creative variations of the algorithm. The final system supports Mineflayer server play and local prismarine-physics experiments. The report data includes 42 duel runs and 4,598 logged decisions.
 
-The experiments show that MCTS can produce plausible combat behavior in this environment: the agent closes distance, waits until melee range, and attacks in cooldown-limited bursts. The variations also show that changing the search procedure changes outcomes. In this experiment, high-exploration and higher-budget MCTS performed best, while the hybrid heuristic bonus changed behavior without improving win rate. Future work should use larger randomized batches, stronger opponent models, and a more faithful PvP simulator with knockback, shields, terrain, and item differences.
+The experiments show that MCTS can produce plausible combat behavior in this environment: the agent closes distance, waits until melee range, and attacks in cooldown-limited bursts. The variations also show that changing the search procedure changes outcomes. In this experiment, standard MCTS and high-exploration MCTS achieved the best win rate, while higher-budget MCTS attacked earliest and used the most search effort. The hybrid heuristic bonus changed behavior without improving win rate. Future work should use larger randomized batches, stronger opponent models, and a more faithful PvP simulator with knockback, shields, terrain, and item differences.
 
 \section*{Acknowledgements}
 

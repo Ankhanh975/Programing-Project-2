@@ -26,7 +26,7 @@ const outputDir = resolve(dirname(fileURLToPath(import.meta.url)), '..', 'debug'
 
 // Project-specific experiment grid used by the report. The repeated jittered
 // openings provide basic mean and variance estimates for each MCTS variation.
-const repeats = 3;
+const repeats = 8;
 
 const strategyVariants = [
   {
@@ -61,38 +61,70 @@ const strategyVariants = [
   },
 ];
 
+const opponentStyles = [
+  {
+    label: 'balanced opponent',
+    config: {},
+    rightHealth: 20,
+    rightAttackDamage: 4,
+  },
+  {
+    label: 'defensive opponent',
+    config: { engageDistance: 3.2, sprintDistance: 5.2, riskBias: 1.5 },
+    rightHealth: 21,
+    rightAttackDamage: 4,
+  },
+  {
+    label: 'aggressive opponent',
+    config: { engageDistance: 1.8, sprintDistance: 3.4, heuristicWeight: 1.2 },
+    rightHealth: 20,
+    rightAttackDamage: 4,
+  },
+  {
+    label: 'strong opponent',
+    config: { iterations: 40, rolloutDepth: 4, exploration: 1.8 },
+    rightHealth: 20,
+    rightAttackDamage: 5,
+  },
+];
+
 const scenarios: Scenario[] = strategyVariants.flatMap((variant) => {
   const rows: Scenario[] = [];
   for (let repeat = 1; repeat <= repeats; repeat++) {
     const rng = seededRandom(`${variant.id}-${repeat}`);
-    const distanceJitter = (rng() - 0.5) * 1.2;
-    const lateralJitter = (rng() - 0.5) * 1.4;
+    const opponent = opponentStyles[(repeat - 1) % opponentStyles.length];
+    const leftDistanceJitter = (rng() - 0.5) * 1.8;
+    const rightDistanceJitter = (rng() - 0.5) * 1.8;
+    const leftLateralJitter = (rng() - 0.5) * 2.4;
+    const rightLateralJitter = (rng() - 0.5) * 2.4;
+    const leftHealth = 19 + Math.floor(rng() * 3);
     rows.push({
       id: `${variant.id}-r${repeat}`,
-      label: `${variant.label} run ${repeat}`,
+      label: `${variant.label} run ${repeat} vs ${opponent.label}`,
       variant: variant.label,
       repeat,
       options: {
-        maxTicks: 70,
-        episodeLimit: 140,
-        leftStart: new Vec3(-4 - distanceJitter, 64, -0.75 - lateralJitter),
-        rightStart: new Vec3(4 + distanceJitter, 64, 0.75 + lateralJitter),
-        leftHealth: 20,
-        rightHealth: 20,
+        maxTicks: 80,
+        episodeLimit: 160,
+        leftStart: new Vec3(-4 - leftDistanceJitter, 64, -0.75 - leftLateralJitter),
+        rightStart: new Vec3(4 + rightDistanceJitter, 64, 0.75 + rightLateralJitter),
+        leftHealth,
+        rightHealth: opponent.rightHealth,
         leftAttackDamage: 4,
-        rightAttackDamage: 4,
+        rightAttackDamage: opponent.rightAttackDamage,
         leftConfig: {
           engageDistance: 2.0,
           sprintDistance: 3.4,
-          iterations: 36,
+          iterations: 32,
           rolloutDepth: 4,
           ...variant.leftConfig,
         },
         rightConfig: {
           engageDistance: 2.8,
           sprintDistance: 4.8,
-          iterations: 28,
+          iterations: 30,
           rolloutDepth: 3,
+          ...opponent.config,
           ...variant.rightConfig,
         },
       },
@@ -159,6 +191,16 @@ async function main() {
     toCsv(aggregateRows(runs.filter((run) => run.variant !== 'Environment stress test'))),
     'utf8',
   );
+  await writeFile(
+    resolve(outputDir, 'win-rate-by-variant.csv'),
+    toCsv(winRateRows(runs.filter((run) => run.variant !== 'Environment stress test'))),
+    'utf8',
+  );
+  await writeFile(
+    resolve(outputDir, 'action-distribution-by-variant.csv'),
+    toCsv(actionDistributionByVariantRows(runs.filter((run) => run.variant !== 'Environment stress test'))),
+    'utf8',
+  );
   await writeFile(resolve(outputDir, 'episodes.csv'), toCsv(episodeRows(runs)), 'utf8');
   await writeFile(resolve(outputDir, 'action-counts.csv'), toCsv(actionCountRows(runs)), 'utf8');
   await writeFile(resolve(outputDir, 'tick-series.csv'), toCsv(tickSeriesRows(runs)), 'utf8');
@@ -167,6 +209,8 @@ async function main() {
   await writeFile(resolve(outputDir, 'health-over-time.svg'), healthChart(baseline), 'utf8');
   await writeFile(resolve(outputDir, 'distance-over-time.svg'), distanceChart(baseline), 'utf8');
   await writeFile(resolve(outputDir, 'action-distribution.svg'), actionDistributionChart(runs), 'utf8');
+  await writeFile(resolve(outputDir, 'win-rate-by-variant.svg'), winRateByVariantChart(runs), 'utf8');
+  await writeFile(resolve(outputDir, 'action-distribution-by-variant.svg'), actionDistributionByVariantChart(runs), 'utf8');
   await writeFile(resolve(outputDir, 'outcome-summary.svg'), outcomeChart(runs), 'utf8');
   await writeFile(resolve(outputDir, 'arena-path.svg'), arenaPathChart(baseline), 'utf8');
   await writeFile(resolve(outputDir, 'visual-index.html'), visualIndex(), 'utf8');
@@ -232,6 +276,33 @@ function aggregateRows(runs: RunRecord[]) {
       meanAverageDistance: round(average(distances)),
       meanMctsVisits: round(average(visits)),
     };
+  });
+}
+
+function winRateRows(runs: RunRecord[]) {
+  return aggregateRows(runs).map((row) => ({
+    variant: row.variant,
+    runs: row.runs,
+    alphaWinRate: row.alphaWinRate,
+    alphaWins: round(Number(row.alphaWinRate) * Number(row.runs)),
+  }));
+}
+
+function actionDistributionByVariantRows(runs: RunRecord[]) {
+  const actions = ['sprint-advance', 'advance', 'close-attack', 'jump-sprint', 'jump-advance', 'hold-attack', 'other'];
+  const groups = new Map<string, DuelEpisode[]>();
+  for (const run of runs) {
+    groups.set(run.variant, [...(groups.get(run.variant) ?? []), ...run.trace.episodes]);
+  }
+
+  return [...groups.entries()].flatMap(([variant, episodes]) => {
+    const counts = countBy(episodes, (episode) => actions.includes(episode.action) ? episode.action : 'other');
+    return actions.map((action) => ({
+      variant,
+      action,
+      count: counts[action] ?? 0,
+      percent: round(((counts[action] ?? 0) / episodes.length) * 100),
+    }));
   });
 }
 
@@ -371,6 +442,76 @@ function actionDistributionChart(runs: RunRecord[]) {
   return svgFrame(width, height, 'Action distribution across all scenarios', bars);
 }
 
+function winRateByVariantChart(runs: RunRecord[]) {
+  const rows = winRateRows(runs.filter((run) => run.variant !== 'Environment stress test'));
+  const width = 980;
+  const height = 560;
+  const plot = { x: 310, y: 80, width: 560, height: 360 };
+  const barHeight = 42;
+  const gap = 24;
+  const bars = rows.map((row, index) => {
+    const y = plot.y + index * (barHeight + gap);
+    const rate = Number(row.alphaWinRate);
+    const barWidth = rate * plot.width;
+    return `
+      <text x="${plot.x - 18}" y="${y + 27}" text-anchor="end" class="label">${escapeXml(String(row.variant))}</text>
+      <rect x="${plot.x}" y="${y}" width="${plot.width}" height="${barHeight}" rx="4" fill="#e2e8f0"/>
+      <rect x="${plot.x}" y="${y}" width="${barWidth}" height="${barHeight}" rx="4" fill="#2563eb"/>
+      <text x="${plot.x + barWidth + 10}" y="${y + 27}" class="small">${Math.round(rate * 100)}%</text>
+    `;
+  }).join('');
+
+  return svgFrame(width, height, 'Alpha win rate by strategy variant', `
+    ${bars}
+    <text x="${plot.x}" y="${plot.y + plot.height + 82}" class="small">0%</text>
+    <text x="${plot.x + plot.width / 2}" y="${plot.y + plot.height + 82}" text-anchor="middle" class="small">50%</text>
+    <text x="${plot.x + plot.width}" y="${plot.y + plot.height + 82}" text-anchor="end" class="small">100%</text>
+  `);
+}
+
+function actionDistributionByVariantChart(runs: RunRecord[]) {
+  const rows = actionDistributionByVariantRows(runs.filter((run) => run.variant !== 'Environment stress test'));
+  const variants = [...new Set(rows.map((row) => String(row.variant)))];
+  const actions = ['sprint-advance', 'advance', 'close-attack', 'jump-sprint', 'jump-advance', 'hold-attack', 'other'];
+  const colors: Record<string, string> = {
+    'sprint-advance': '#2563eb',
+    advance: '#16a34a',
+    'close-attack': '#dc2626',
+    'jump-sprint': '#f59e0b',
+    'jump-advance': '#7c3aed',
+    'hold-attack': '#64748b',
+    other: '#94a3b8',
+  };
+  const width = 1100;
+  const height = 620;
+  const plot = { x: 300, y: 90, width: 680, height: 360 };
+  const barHeight = 42;
+  const gap = 24;
+  const bars = variants.map((variant, index) => {
+    const y = plot.y + index * (barHeight + gap);
+    let x = plot.x;
+    const segments = actions.map((action) => {
+      const row = rows.find((candidate) => candidate.variant === variant && candidate.action === action);
+      const percent = Number(row?.percent ?? 0);
+      const width = (percent / 100) * plot.width;
+      const segment = `<rect x="${x}" y="${y}" width="${width}" height="${barHeight}" fill="${colors[action]}"><title>${escapeXml(action)}: ${percent}%</title></rect>`;
+      x += width;
+      return segment;
+    }).join('');
+
+    return `
+      <text x="${plot.x - 18}" y="${y + 27}" text-anchor="end" class="label">${escapeXml(variant)}</text>
+      <rect x="${plot.x}" y="${y}" width="${plot.width}" height="${barHeight}" fill="#e2e8f0"/>
+      ${segments}
+    `;
+  }).join('');
+
+  return svgFrame(width, height, 'Action distribution by strategy variant', `
+    ${bars}
+    ${legend(70, 480, actions.map((action) => [action, colors[action]]))}
+  `);
+}
+
 function outcomeChart(runs: RunRecord[]) {
   const width = 980;
   const height = 560;
@@ -433,12 +574,16 @@ Generated from the local Minecraft PvP physics simulation.
 ## Files
 
 - \`summary.csv\` - one row per scenario with winner, final health, attack count, distance statistics, and MCTS visits.
+- \`win-rate-by-variant.csv\` - Alpha win rate grouped by strategy variant.
+- \`action-distribution-by-variant.csv\` - action counts and percentages grouped by strategy variant.
 - \`episodes.csv\` - full decision log for every agent action.
 - \`action-counts.csv\` - action frequency table for comparing strategy choices.
 - \`tick-series.csv\` - per-tick health, distance, and attack timing for charts.
 - \`duel-runs.json\` - complete raw data for all scenarios.
 - \`health-over-time.svg\` - health chart for the baseline duel.
 - \`distance-over-time.svg\` - spacing chart with attack reach marked.
+- \`win-rate-by-variant.svg\` - bar chart of Alpha win rate for each strategy variant.
+- \`action-distribution-by-variant.svg\` - stacked action distribution chart for each strategy variant.
 - \`action-distribution.svg\` - action frequency visual across every scenario.
 - \`outcome-summary.svg\` - final health comparison across scenarios.
 - \`arena-path.svg\` - top-down movement path for the baseline duel.
@@ -461,6 +606,8 @@ Generated from the local Minecraft PvP physics simulation.
 
 function visualIndex() {
   const visuals = [
+    ['Win rate by variant', 'win-rate-by-variant.svg'],
+    ['Action distribution by variant', 'action-distribution-by-variant.svg'],
     ['Health over time', 'health-over-time.svg'],
     ['Distance over time', 'distance-over-time.svg'],
     ['Action distribution', 'action-distribution.svg'],

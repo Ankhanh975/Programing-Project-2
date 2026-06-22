@@ -1,0 +1,6 @@
+variant,runs,alphaWinRate,alphaWins
+Standard MCTS,8,0.625,5
+Hybrid MCTS + heuristic evaluation,8,0.25,2
+Risk-aware MCTS,8,0.375,3
+High-exploration MCTS,8,0.625,5
+Higher-budget MCTS,8,0.5,4

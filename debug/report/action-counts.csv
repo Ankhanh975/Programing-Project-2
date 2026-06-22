@@ -1,84 +1,235 @@
 runId,scenario,variant,repeat,action,count,percent
-standard-mcts-r1,Standard MCTS run 1,Standard MCTS,1,advance,15,12.821
-standard-mcts-r1,Standard MCTS run 1,Standard MCTS,1,close-attack,10,8.547
-standard-mcts-r1,Standard MCTS run 1,Standard MCTS,1,jump-advance,1,0.855
-standard-mcts-r1,Standard MCTS run 1,Standard MCTS,1,jump-sprint,5,4.274
-standard-mcts-r1,Standard MCTS run 1,Standard MCTS,1,sprint-advance,86,73.504
-standard-mcts-r2,Standard MCTS run 2,Standard MCTS,2,advance,9,7.826
-standard-mcts-r2,Standard MCTS run 2,Standard MCTS,2,close-attack,11,9.565
-standard-mcts-r2,Standard MCTS run 2,Standard MCTS,2,jump-advance,6,5.217
-standard-mcts-r2,Standard MCTS run 2,Standard MCTS,2,jump-sprint,5,4.348
-standard-mcts-r2,Standard MCTS run 2,Standard MCTS,2,sprint-advance,84,73.043
-standard-mcts-r3,Standard MCTS run 3,Standard MCTS,3,advance,8,7.018
-standard-mcts-r3,Standard MCTS run 3,Standard MCTS,3,close-attack,10,8.772
-standard-mcts-r3,Standard MCTS run 3,Standard MCTS,3,hold-attack,1,0.877
-standard-mcts-r3,Standard MCTS run 3,Standard MCTS,3,jump-advance,2,1.754
-standard-mcts-r3,Standard MCTS run 3,Standard MCTS,3,jump-sprint,5,4.386
-standard-mcts-r3,Standard MCTS run 3,Standard MCTS,3,sprint-advance,88,77.193
-hybrid-heuristic-r1,Hybrid MCTS + heuristic evaluation run 1,Hybrid MCTS + heuristic evaluation,1,advance,17,14.655
-hybrid-heuristic-r1,Hybrid MCTS + heuristic evaluation run 1,Hybrid MCTS + heuristic evaluation,1,close-attack,12,10.345
-hybrid-heuristic-r1,Hybrid MCTS + heuristic evaluation run 1,Hybrid MCTS + heuristic evaluation,1,hold-attack,1,0.862
-hybrid-heuristic-r1,Hybrid MCTS + heuristic evaluation run 1,Hybrid MCTS + heuristic evaluation,1,jump-advance,4,3.448
-hybrid-heuristic-r1,Hybrid MCTS + heuristic evaluation run 1,Hybrid MCTS + heuristic evaluation,1,jump-sprint,1,0.862
-hybrid-heuristic-r1,Hybrid MCTS + heuristic evaluation run 1,Hybrid MCTS + heuristic evaluation,1,sprint-advance,81,69.828
-hybrid-heuristic-r2,Hybrid MCTS + heuristic evaluation run 2,Hybrid MCTS + heuristic evaluation,2,advance,10,8.772
-hybrid-heuristic-r2,Hybrid MCTS + heuristic evaluation run 2,Hybrid MCTS + heuristic evaluation,2,close-attack,8,7.018
-hybrid-heuristic-r2,Hybrid MCTS + heuristic evaluation run 2,Hybrid MCTS + heuristic evaluation,2,hold-attack,1,0.877
-hybrid-heuristic-r2,Hybrid MCTS + heuristic evaluation run 2,Hybrid MCTS + heuristic evaluation,2,jump-advance,3,2.632
-hybrid-heuristic-r2,Hybrid MCTS + heuristic evaluation run 2,Hybrid MCTS + heuristic evaluation,2,jump-sprint,7,6.14
-hybrid-heuristic-r2,Hybrid MCTS + heuristic evaluation run 2,Hybrid MCTS + heuristic evaluation,2,sprint-advance,85,74.561
-hybrid-heuristic-r3,Hybrid MCTS + heuristic evaluation run 3,Hybrid MCTS + heuristic evaluation,3,advance,15,13.158
-hybrid-heuristic-r3,Hybrid MCTS + heuristic evaluation run 3,Hybrid MCTS + heuristic evaluation,3,close-attack,12,10.526
-hybrid-heuristic-r3,Hybrid MCTS + heuristic evaluation run 3,Hybrid MCTS + heuristic evaluation,3,hold-attack,1,0.877
-hybrid-heuristic-r3,Hybrid MCTS + heuristic evaluation run 3,Hybrid MCTS + heuristic evaluation,3,jump-advance,2,1.754
-hybrid-heuristic-r3,Hybrid MCTS + heuristic evaluation run 3,Hybrid MCTS + heuristic evaluation,3,jump-sprint,3,2.632
-hybrid-heuristic-r3,Hybrid MCTS + heuristic evaluation run 3,Hybrid MCTS + heuristic evaluation,3,sprint-advance,81,71.053
-risk-aware-r1,Risk-aware MCTS run 1,Risk-aware MCTS,1,advance,13,11.712
-risk-aware-r1,Risk-aware MCTS run 1,Risk-aware MCTS,1,close-attack,13,11.712
-risk-aware-r1,Risk-aware MCTS run 1,Risk-aware MCTS,1,jump-sprint,9,8.108
-risk-aware-r1,Risk-aware MCTS run 1,Risk-aware MCTS,1,sprint-advance,76,68.468
-risk-aware-r2,Risk-aware MCTS run 2,Risk-aware MCTS,2,advance,20,18.182
-risk-aware-r2,Risk-aware MCTS run 2,Risk-aware MCTS,2,close-attack,12,10.909
-risk-aware-r2,Risk-aware MCTS run 2,Risk-aware MCTS,2,hold-attack,1,0.909
-risk-aware-r2,Risk-aware MCTS run 2,Risk-aware MCTS,2,jump-advance,1,0.909
-risk-aware-r2,Risk-aware MCTS run 2,Risk-aware MCTS,2,jump-sprint,2,1.818
-risk-aware-r2,Risk-aware MCTS run 2,Risk-aware MCTS,2,sprint-advance,74,67.273
-risk-aware-r3,Risk-aware MCTS run 3,Risk-aware MCTS,3,advance,11,9.649
-risk-aware-r3,Risk-aware MCTS run 3,Risk-aware MCTS,3,close-attack,10,8.772
-risk-aware-r3,Risk-aware MCTS run 3,Risk-aware MCTS,3,hold-attack,1,0.877
-risk-aware-r3,Risk-aware MCTS run 3,Risk-aware MCTS,3,jump-advance,2,1.754
-risk-aware-r3,Risk-aware MCTS run 3,Risk-aware MCTS,3,jump-sprint,3,2.632
-risk-aware-r3,Risk-aware MCTS run 3,Risk-aware MCTS,3,sprint-advance,87,76.316
-exploratory-r1,High-exploration MCTS run 1,High-exploration MCTS,1,advance,20,17.699
-exploratory-r1,High-exploration MCTS run 1,High-exploration MCTS,1,close-attack,11,9.735
-exploratory-r1,High-exploration MCTS run 1,High-exploration MCTS,1,jump-advance,9,7.965
-exploratory-r1,High-exploration MCTS run 1,High-exploration MCTS,1,jump-sprint,1,0.885
-exploratory-r1,High-exploration MCTS run 1,High-exploration MCTS,1,sprint-advance,72,63.717
-exploratory-r2,High-exploration MCTS run 2,High-exploration MCTS,2,advance,29,25.664
-exploratory-r2,High-exploration MCTS run 2,High-exploration MCTS,2,close-attack,11,9.735
-exploratory-r2,High-exploration MCTS run 2,High-exploration MCTS,2,jump-advance,1,0.885
-exploratory-r2,High-exploration MCTS run 2,High-exploration MCTS,2,jump-sprint,2,1.77
-exploratory-r2,High-exploration MCTS run 2,High-exploration MCTS,2,sprint-advance,70,61.947
-exploratory-r3,High-exploration MCTS run 3,High-exploration MCTS,3,advance,18,15.385
-exploratory-r3,High-exploration MCTS run 3,High-exploration MCTS,3,close-attack,10,8.547
-exploratory-r3,High-exploration MCTS run 3,High-exploration MCTS,3,jump-sprint,2,1.709
-exploratory-r3,High-exploration MCTS run 3,High-exploration MCTS,3,sprint-advance,87,74.359
-high-budget-r1,Higher-budget MCTS run 1,Higher-budget MCTS,1,advance,12,11.009
-high-budget-r1,Higher-budget MCTS run 1,Higher-budget MCTS,1,close-attack,12,11.009
-high-budget-r1,Higher-budget MCTS run 1,Higher-budget MCTS,1,jump-advance,3,2.752
-high-budget-r1,Higher-budget MCTS run 1,Higher-budget MCTS,1,jump-sprint,3,2.752
-high-budget-r1,Higher-budget MCTS run 1,Higher-budget MCTS,1,sprint-advance,79,72.477
-high-budget-r2,Higher-budget MCTS run 2,Higher-budget MCTS,2,advance,14,12.613
-high-budget-r2,Higher-budget MCTS run 2,Higher-budget MCTS,2,close-attack,10,9.009
-high-budget-r2,Higher-budget MCTS run 2,Higher-budget MCTS,2,hold-attack,1,0.901
-high-budget-r2,Higher-budget MCTS run 2,Higher-budget MCTS,2,jump-advance,5,4.505
-high-budget-r2,Higher-budget MCTS run 2,Higher-budget MCTS,2,jump-sprint,3,2.703
-high-budget-r2,Higher-budget MCTS run 2,Higher-budget MCTS,2,sprint-advance,78,70.27
-high-budget-r3,Higher-budget MCTS run 3,Higher-budget MCTS,3,advance,12,10.619
-high-budget-r3,Higher-budget MCTS run 3,Higher-budget MCTS,3,close-attack,12,10.619
-high-budget-r3,Higher-budget MCTS run 3,Higher-budget MCTS,3,jump-advance,5,4.425
-high-budget-r3,Higher-budget MCTS run 3,Higher-budget MCTS,3,jump-sprint,3,2.655
-high-budget-r3,Higher-budget MCTS run 3,Higher-budget MCTS,3,sprint-advance,81,71.681
+standard-mcts-r1,Standard MCTS run 1 vs balanced opponent,Standard MCTS,1,advance,18,15.652
+standard-mcts-r1,Standard MCTS run 1 vs balanced opponent,Standard MCTS,1,close-attack,9,7.826
+standard-mcts-r1,Standard MCTS run 1 vs balanced opponent,Standard MCTS,1,hold-attack,2,1.739
+standard-mcts-r1,Standard MCTS run 1 vs balanced opponent,Standard MCTS,1,jump-advance,6,5.217
+standard-mcts-r1,Standard MCTS run 1 vs balanced opponent,Standard MCTS,1,jump-sprint,3,2.609
+standard-mcts-r1,Standard MCTS run 1 vs balanced opponent,Standard MCTS,1,sprint-advance,77,66.957
+standard-mcts-r2,Standard MCTS run 2 vs defensive opponent,Standard MCTS,2,advance,22,18.966
+standard-mcts-r2,Standard MCTS run 2 vs defensive opponent,Standard MCTS,2,close-attack,12,10.345
+standard-mcts-r2,Standard MCTS run 2 vs defensive opponent,Standard MCTS,2,hold-attack,1,0.862
+standard-mcts-r2,Standard MCTS run 2 vs defensive opponent,Standard MCTS,2,jump-advance,2,1.724
+standard-mcts-r2,Standard MCTS run 2 vs defensive opponent,Standard MCTS,2,jump-sprint,4,3.448
+standard-mcts-r2,Standard MCTS run 2 vs defensive opponent,Standard MCTS,2,sprint-advance,75,64.655
+standard-mcts-r3,Standard MCTS run 3 vs aggressive opponent,Standard MCTS,3,advance,23,20
+standard-mcts-r3,Standard MCTS run 3 vs aggressive opponent,Standard MCTS,3,close-attack,9,7.826
+standard-mcts-r3,Standard MCTS run 3 vs aggressive opponent,Standard MCTS,3,hold-attack,1,0.87
+standard-mcts-r3,Standard MCTS run 3 vs aggressive opponent,Standard MCTS,3,jump-advance,6,5.217
+standard-mcts-r3,Standard MCTS run 3 vs aggressive opponent,Standard MCTS,3,jump-sprint,3,2.609
+standard-mcts-r3,Standard MCTS run 3 vs aggressive opponent,Standard MCTS,3,sprint-advance,73,63.478
+standard-mcts-r4,Standard MCTS run 4 vs strong opponent,Standard MCTS,4,advance,10,8.85
+standard-mcts-r4,Standard MCTS run 4 vs strong opponent,Standard MCTS,4,close-attack,10,8.85
+standard-mcts-r4,Standard MCTS run 4 vs strong opponent,Standard MCTS,4,hold-attack,2,1.77
+standard-mcts-r4,Standard MCTS run 4 vs strong opponent,Standard MCTS,4,jump-advance,3,2.655
+standard-mcts-r4,Standard MCTS run 4 vs strong opponent,Standard MCTS,4,jump-sprint,2,1.77
+standard-mcts-r4,Standard MCTS run 4 vs strong opponent,Standard MCTS,4,sprint-advance,86,76.106
+standard-mcts-r5,Standard MCTS run 5 vs balanced opponent,Standard MCTS,5,advance,17,15.044
+standard-mcts-r5,Standard MCTS run 5 vs balanced opponent,Standard MCTS,5,close-attack,11,9.735
+standard-mcts-r5,Standard MCTS run 5 vs balanced opponent,Standard MCTS,5,hold-attack,2,1.77
+standard-mcts-r5,Standard MCTS run 5 vs balanced opponent,Standard MCTS,5,jump-advance,5,4.425
+standard-mcts-r5,Standard MCTS run 5 vs balanced opponent,Standard MCTS,5,jump-sprint,1,0.885
+standard-mcts-r5,Standard MCTS run 5 vs balanced opponent,Standard MCTS,5,sprint-advance,77,68.142
+standard-mcts-r6,Standard MCTS run 6 vs defensive opponent,Standard MCTS,6,advance,15,13.393
+standard-mcts-r6,Standard MCTS run 6 vs defensive opponent,Standard MCTS,6,close-attack,11,9.821
+standard-mcts-r6,Standard MCTS run 6 vs defensive opponent,Standard MCTS,6,jump-advance,1,0.893
+standard-mcts-r6,Standard MCTS run 6 vs defensive opponent,Standard MCTS,6,jump-sprint,5,4.464
+standard-mcts-r6,Standard MCTS run 6 vs defensive opponent,Standard MCTS,6,sprint-advance,80,71.429
+standard-mcts-r7,Standard MCTS run 7 vs aggressive opponent,Standard MCTS,7,advance,17,14.783
+standard-mcts-r7,Standard MCTS run 7 vs aggressive opponent,Standard MCTS,7,close-attack,11,9.565
+standard-mcts-r7,Standard MCTS run 7 vs aggressive opponent,Standard MCTS,7,hold-attack,1,0.87
+standard-mcts-r7,Standard MCTS run 7 vs aggressive opponent,Standard MCTS,7,jump-advance,2,1.739
+standard-mcts-r7,Standard MCTS run 7 vs aggressive opponent,Standard MCTS,7,jump-sprint,1,0.87
+standard-mcts-r7,Standard MCTS run 7 vs aggressive opponent,Standard MCTS,7,sprint-advance,83,72.174
+standard-mcts-r8,Standard MCTS run 8 vs strong opponent,Standard MCTS,8,advance,13,13.542
+standard-mcts-r8,Standard MCTS run 8 vs strong opponent,Standard MCTS,8,close-attack,13,13.542
+standard-mcts-r8,Standard MCTS run 8 vs strong opponent,Standard MCTS,8,jump-advance,2,2.083
+standard-mcts-r8,Standard MCTS run 8 vs strong opponent,Standard MCTS,8,jump-sprint,2,2.083
+standard-mcts-r8,Standard MCTS run 8 vs strong opponent,Standard MCTS,8,sprint-advance,66,68.75
+hybrid-heuristic-r1,Hybrid MCTS + heuristic evaluation run 1 vs balanced opponent,Hybrid MCTS + heuristic evaluation,1,advance,11,9.483
+hybrid-heuristic-r1,Hybrid MCTS + heuristic evaluation run 1 vs balanced opponent,Hybrid MCTS + heuristic evaluation,1,close-attack,11,9.483
+hybrid-heuristic-r1,Hybrid MCTS + heuristic evaluation run 1 vs balanced opponent,Hybrid MCTS + heuristic evaluation,1,hold-attack,1,0.862
+hybrid-heuristic-r1,Hybrid MCTS + heuristic evaluation run 1 vs balanced opponent,Hybrid MCTS + heuristic evaluation,1,jump-advance,5,4.31
+hybrid-heuristic-r1,Hybrid MCTS + heuristic evaluation run 1 vs balanced opponent,Hybrid MCTS + heuristic evaluation,1,jump-sprint,3,2.586
+hybrid-heuristic-r1,Hybrid MCTS + heuristic evaluation run 1 vs balanced opponent,Hybrid MCTS + heuristic evaluation,1,sprint-advance,85,73.276
+hybrid-heuristic-r2,Hybrid MCTS + heuristic evaluation run 2 vs defensive opponent,Hybrid MCTS + heuristic evaluation,2,advance,17,14.655
+hybrid-heuristic-r2,Hybrid MCTS + heuristic evaluation run 2 vs defensive opponent,Hybrid MCTS + heuristic evaluation,2,close-attack,9,7.759
+hybrid-heuristic-r2,Hybrid MCTS + heuristic evaluation run 2 vs defensive opponent,Hybrid MCTS + heuristic evaluation,2,hold-attack,1,0.862
+hybrid-heuristic-r2,Hybrid MCTS + heuristic evaluation run 2 vs defensive opponent,Hybrid MCTS + heuristic evaluation,2,jump-advance,2,1.724
+hybrid-heuristic-r2,Hybrid MCTS + heuristic evaluation run 2 vs defensive opponent,Hybrid MCTS + heuristic evaluation,2,jump-sprint,5,4.31
+hybrid-heuristic-r2,Hybrid MCTS + heuristic evaluation run 2 vs defensive opponent,Hybrid MCTS + heuristic evaluation,2,retreat-right,1,0.862
+hybrid-heuristic-r2,Hybrid MCTS + heuristic evaluation run 2 vs defensive opponent,Hybrid MCTS + heuristic evaluation,2,sprint-advance,81,69.828
+hybrid-heuristic-r3,Hybrid MCTS + heuristic evaluation run 3 vs aggressive opponent,Hybrid MCTS + heuristic evaluation,3,advance,13,11.404
+hybrid-heuristic-r3,Hybrid MCTS + heuristic evaluation run 3 vs aggressive opponent,Hybrid MCTS + heuristic evaluation,3,close-attack,10,8.772
+hybrid-heuristic-r3,Hybrid MCTS + heuristic evaluation run 3 vs aggressive opponent,Hybrid MCTS + heuristic evaluation,3,jump-advance,3,2.632
+hybrid-heuristic-r3,Hybrid MCTS + heuristic evaluation run 3 vs aggressive opponent,Hybrid MCTS + heuristic evaluation,3,jump-sprint,6,5.263
+hybrid-heuristic-r3,Hybrid MCTS + heuristic evaluation run 3 vs aggressive opponent,Hybrid MCTS + heuristic evaluation,3,sprint-advance,82,71.93
+hybrid-heuristic-r4,Hybrid MCTS + heuristic evaluation run 4 vs strong opponent,Hybrid MCTS + heuristic evaluation,4,advance,13,14.13
+hybrid-heuristic-r4,Hybrid MCTS + heuristic evaluation run 4 vs strong opponent,Hybrid MCTS + heuristic evaluation,4,close-attack,8,8.696
+hybrid-heuristic-r4,Hybrid MCTS + heuristic evaluation run 4 vs strong opponent,Hybrid MCTS + heuristic evaluation,4,hold-attack,1,1.087
+hybrid-heuristic-r4,Hybrid MCTS + heuristic evaluation run 4 vs strong opponent,Hybrid MCTS + heuristic evaluation,4,jump-advance,3,3.261
+hybrid-heuristic-r4,Hybrid MCTS + heuristic evaluation run 4 vs strong opponent,Hybrid MCTS + heuristic evaluation,4,jump-sprint,4,4.348
+hybrid-heuristic-r4,Hybrid MCTS + heuristic evaluation run 4 vs strong opponent,Hybrid MCTS + heuristic evaluation,4,sprint-advance,63,68.478
+hybrid-heuristic-r5,Hybrid MCTS + heuristic evaluation run 5 vs balanced opponent,Hybrid MCTS + heuristic evaluation,5,advance,14,12.174
+hybrid-heuristic-r5,Hybrid MCTS + heuristic evaluation run 5 vs balanced opponent,Hybrid MCTS + heuristic evaluation,5,close-attack,11,9.565
+hybrid-heuristic-r5,Hybrid MCTS + heuristic evaluation run 5 vs balanced opponent,Hybrid MCTS + heuristic evaluation,5,hold-attack,2,1.739
+hybrid-heuristic-r5,Hybrid MCTS + heuristic evaluation run 5 vs balanced opponent,Hybrid MCTS + heuristic evaluation,5,jump-advance,2,1.739
+hybrid-heuristic-r5,Hybrid MCTS + heuristic evaluation run 5 vs balanced opponent,Hybrid MCTS + heuristic evaluation,5,jump-sprint,8,6.957
+hybrid-heuristic-r5,Hybrid MCTS + heuristic evaluation run 5 vs balanced opponent,Hybrid MCTS + heuristic evaluation,5,sprint-advance,78,67.826
+hybrid-heuristic-r6,Hybrid MCTS + heuristic evaluation run 6 vs defensive opponent,Hybrid MCTS + heuristic evaluation,6,advance,15,13.393
+hybrid-heuristic-r6,Hybrid MCTS + heuristic evaluation run 6 vs defensive opponent,Hybrid MCTS + heuristic evaluation,6,close-attack,10,8.929
+hybrid-heuristic-r6,Hybrid MCTS + heuristic evaluation run 6 vs defensive opponent,Hybrid MCTS + heuristic evaluation,6,hold-attack,1,0.893
+hybrid-heuristic-r6,Hybrid MCTS + heuristic evaluation run 6 vs defensive opponent,Hybrid MCTS + heuristic evaluation,6,jump-advance,2,1.786
+hybrid-heuristic-r6,Hybrid MCTS + heuristic evaluation run 6 vs defensive opponent,Hybrid MCTS + heuristic evaluation,6,jump-sprint,9,8.036
+hybrid-heuristic-r6,Hybrid MCTS + heuristic evaluation run 6 vs defensive opponent,Hybrid MCTS + heuristic evaluation,6,retreat-left,1,0.893
+hybrid-heuristic-r6,Hybrid MCTS + heuristic evaluation run 6 vs defensive opponent,Hybrid MCTS + heuristic evaluation,6,sprint-advance,74,66.071
+hybrid-heuristic-r7,Hybrid MCTS + heuristic evaluation run 7 vs aggressive opponent,Hybrid MCTS + heuristic evaluation,7,advance,24,21.239
+hybrid-heuristic-r7,Hybrid MCTS + heuristic evaluation run 7 vs aggressive opponent,Hybrid MCTS + heuristic evaluation,7,close-attack,9,7.965
+hybrid-heuristic-r7,Hybrid MCTS + heuristic evaluation run 7 vs aggressive opponent,Hybrid MCTS + heuristic evaluation,7,hold-attack,1,0.885
+hybrid-heuristic-r7,Hybrid MCTS + heuristic evaluation run 7 vs aggressive opponent,Hybrid MCTS + heuristic evaluation,7,jump-advance,2,1.77
+hybrid-heuristic-r7,Hybrid MCTS + heuristic evaluation run 7 vs aggressive opponent,Hybrid MCTS + heuristic evaluation,7,jump-sprint,5,4.425
+hybrid-heuristic-r7,Hybrid MCTS + heuristic evaluation run 7 vs aggressive opponent,Hybrid MCTS + heuristic evaluation,7,sprint-advance,72,63.717
+hybrid-heuristic-r8,Hybrid MCTS + heuristic evaluation run 8 vs strong opponent,Hybrid MCTS + heuristic evaluation,8,advance,14,12.069
+hybrid-heuristic-r8,Hybrid MCTS + heuristic evaluation run 8 vs strong opponent,Hybrid MCTS + heuristic evaluation,8,close-attack,9,7.759
+hybrid-heuristic-r8,Hybrid MCTS + heuristic evaluation run 8 vs strong opponent,Hybrid MCTS + heuristic evaluation,8,hold-attack,1,0.862
+hybrid-heuristic-r8,Hybrid MCTS + heuristic evaluation run 8 vs strong opponent,Hybrid MCTS + heuristic evaluation,8,jump-advance,3,2.586
+hybrid-heuristic-r8,Hybrid MCTS + heuristic evaluation run 8 vs strong opponent,Hybrid MCTS + heuristic evaluation,8,jump-sprint,2,1.724
+hybrid-heuristic-r8,Hybrid MCTS + heuristic evaluation run 8 vs strong opponent,Hybrid MCTS + heuristic evaluation,8,sprint-advance,87,75
+risk-aware-r1,Risk-aware MCTS run 1 vs balanced opponent,Risk-aware MCTS,1,advance,13,11.607
+risk-aware-r1,Risk-aware MCTS run 1 vs balanced opponent,Risk-aware MCTS,1,close-attack,9,8.036
+risk-aware-r1,Risk-aware MCTS run 1 vs balanced opponent,Risk-aware MCTS,1,hold-attack,1,0.893
+risk-aware-r1,Risk-aware MCTS run 1 vs balanced opponent,Risk-aware MCTS,1,jump-advance,4,3.571
+risk-aware-r1,Risk-aware MCTS run 1 vs balanced opponent,Risk-aware MCTS,1,jump-sprint,2,1.786
+risk-aware-r1,Risk-aware MCTS run 1 vs balanced opponent,Risk-aware MCTS,1,sprint-advance,83,74.107
+risk-aware-r2,Risk-aware MCTS run 2 vs defensive opponent,Risk-aware MCTS,2,advance,32,28.571
+risk-aware-r2,Risk-aware MCTS run 2 vs defensive opponent,Risk-aware MCTS,2,close-attack,11,9.821
+risk-aware-r2,Risk-aware MCTS run 2 vs defensive opponent,Risk-aware MCTS,2,hold-attack,1,0.893
+risk-aware-r2,Risk-aware MCTS run 2 vs defensive opponent,Risk-aware MCTS,2,jump-advance,4,3.571
+risk-aware-r2,Risk-aware MCTS run 2 vs defensive opponent,Risk-aware MCTS,2,jump-sprint,2,1.786
+risk-aware-r2,Risk-aware MCTS run 2 vs defensive opponent,Risk-aware MCTS,2,sprint-advance,62,55.357
+risk-aware-r3,Risk-aware MCTS run 3 vs aggressive opponent,Risk-aware MCTS,3,advance,23,20
+risk-aware-r3,Risk-aware MCTS run 3 vs aggressive opponent,Risk-aware MCTS,3,close-attack,10,8.696
+risk-aware-r3,Risk-aware MCTS run 3 vs aggressive opponent,Risk-aware MCTS,3,jump-advance,3,2.609
+risk-aware-r3,Risk-aware MCTS run 3 vs aggressive opponent,Risk-aware MCTS,3,jump-sprint,2,1.739
+risk-aware-r3,Risk-aware MCTS run 3 vs aggressive opponent,Risk-aware MCTS,3,sprint-advance,77,66.957
+risk-aware-r4,Risk-aware MCTS run 4 vs strong opponent,Risk-aware MCTS,4,advance,17,18.478
+risk-aware-r4,Risk-aware MCTS run 4 vs strong opponent,Risk-aware MCTS,4,close-attack,7,7.609
+risk-aware-r4,Risk-aware MCTS run 4 vs strong opponent,Risk-aware MCTS,4,hold-attack,2,2.174
+risk-aware-r4,Risk-aware MCTS run 4 vs strong opponent,Risk-aware MCTS,4,jump-advance,10,10.87
+risk-aware-r4,Risk-aware MCTS run 4 vs strong opponent,Risk-aware MCTS,4,jump-sprint,4,4.348
+risk-aware-r4,Risk-aware MCTS run 4 vs strong opponent,Risk-aware MCTS,4,sprint-advance,52,56.522
+risk-aware-r5,Risk-aware MCTS run 5 vs balanced opponent,Risk-aware MCTS,5,advance,16,13.445
+risk-aware-r5,Risk-aware MCTS run 5 vs balanced opponent,Risk-aware MCTS,5,close-attack,10,8.403
+risk-aware-r5,Risk-aware MCTS run 5 vs balanced opponent,Risk-aware MCTS,5,hold-attack,2,1.681
+risk-aware-r5,Risk-aware MCTS run 5 vs balanced opponent,Risk-aware MCTS,5,jump-advance,5,4.202
+risk-aware-r5,Risk-aware MCTS run 5 vs balanced opponent,Risk-aware MCTS,5,jump-sprint,1,0.84
+risk-aware-r5,Risk-aware MCTS run 5 vs balanced opponent,Risk-aware MCTS,5,sprint-advance,85,71.429
+risk-aware-r6,Risk-aware MCTS run 6 vs defensive opponent,Risk-aware MCTS,6,advance,15,13.636
+risk-aware-r6,Risk-aware MCTS run 6 vs defensive opponent,Risk-aware MCTS,6,close-attack,11,10
+risk-aware-r6,Risk-aware MCTS run 6 vs defensive opponent,Risk-aware MCTS,6,hold-attack,1,0.909
+risk-aware-r6,Risk-aware MCTS run 6 vs defensive opponent,Risk-aware MCTS,6,jump-advance,5,4.545
+risk-aware-r6,Risk-aware MCTS run 6 vs defensive opponent,Risk-aware MCTS,6,jump-sprint,4,3.636
+risk-aware-r6,Risk-aware MCTS run 6 vs defensive opponent,Risk-aware MCTS,6,sprint-advance,74,67.273
+risk-aware-r7,Risk-aware MCTS run 7 vs aggressive opponent,Risk-aware MCTS,7,advance,19,16.522
+risk-aware-r7,Risk-aware MCTS run 7 vs aggressive opponent,Risk-aware MCTS,7,close-attack,10,8.696
+risk-aware-r7,Risk-aware MCTS run 7 vs aggressive opponent,Risk-aware MCTS,7,jump-advance,5,4.348
+risk-aware-r7,Risk-aware MCTS run 7 vs aggressive opponent,Risk-aware MCTS,7,jump-sprint,3,2.609
+risk-aware-r7,Risk-aware MCTS run 7 vs aggressive opponent,Risk-aware MCTS,7,sprint-advance,78,67.826
+risk-aware-r8,Risk-aware MCTS run 8 vs strong opponent,Risk-aware MCTS,8,advance,10,10.417
+risk-aware-r8,Risk-aware MCTS run 8 vs strong opponent,Risk-aware MCTS,8,close-attack,12,12.5
+risk-aware-r8,Risk-aware MCTS run 8 vs strong opponent,Risk-aware MCTS,8,hold-attack,1,1.042
+risk-aware-r8,Risk-aware MCTS run 8 vs strong opponent,Risk-aware MCTS,8,jump-advance,5,5.208
+risk-aware-r8,Risk-aware MCTS run 8 vs strong opponent,Risk-aware MCTS,8,jump-sprint,4,4.167
+risk-aware-r8,Risk-aware MCTS run 8 vs strong opponent,Risk-aware MCTS,8,sprint-advance,64,66.667
+exploratory-r1,High-exploration MCTS run 1 vs balanced opponent,High-exploration MCTS,1,advance,22,19.469
+exploratory-r1,High-exploration MCTS run 1 vs balanced opponent,High-exploration MCTS,1,close-attack,9,7.965
+exploratory-r1,High-exploration MCTS run 1 vs balanced opponent,High-exploration MCTS,1,hold-attack,2,1.77
+exploratory-r1,High-exploration MCTS run 1 vs balanced opponent,High-exploration MCTS,1,jump-advance,3,2.655
+exploratory-r1,High-exploration MCTS run 1 vs balanced opponent,High-exploration MCTS,1,jump-sprint,3,2.655
+exploratory-r1,High-exploration MCTS run 1 vs balanced opponent,High-exploration MCTS,1,sprint-advance,74,65.487
+exploratory-r2,High-exploration MCTS run 2 vs defensive opponent,High-exploration MCTS,2,advance,19,16.964
+exploratory-r2,High-exploration MCTS run 2 vs defensive opponent,High-exploration MCTS,2,close-attack,9,8.036
+exploratory-r2,High-exploration MCTS run 2 vs defensive opponent,High-exploration MCTS,2,hold-attack,1,0.893
+exploratory-r2,High-exploration MCTS run 2 vs defensive opponent,High-exploration MCTS,2,jump-advance,3,2.679
+exploratory-r2,High-exploration MCTS run 2 vs defensive opponent,High-exploration MCTS,2,jump-sprint,3,2.679
+exploratory-r2,High-exploration MCTS run 2 vs defensive opponent,High-exploration MCTS,2,sprint-advance,77,68.75
+exploratory-r3,High-exploration MCTS run 3 vs aggressive opponent,High-exploration MCTS,3,advance,15,13.043
+exploratory-r3,High-exploration MCTS run 3 vs aggressive opponent,High-exploration MCTS,3,close-attack,7,6.087
+exploratory-r3,High-exploration MCTS run 3 vs aggressive opponent,High-exploration MCTS,3,hold-attack,2,1.739
+exploratory-r3,High-exploration MCTS run 3 vs aggressive opponent,High-exploration MCTS,3,jump-advance,1,0.87
+exploratory-r3,High-exploration MCTS run 3 vs aggressive opponent,High-exploration MCTS,3,jump-sprint,6,5.217
+exploratory-r3,High-exploration MCTS run 3 vs aggressive opponent,High-exploration MCTS,3,sprint-advance,84,73.043
+exploratory-r4,High-exploration MCTS run 4 vs strong opponent,High-exploration MCTS,4,advance,12,13.333
+exploratory-r4,High-exploration MCTS run 4 vs strong opponent,High-exploration MCTS,4,close-attack,8,8.889
+exploratory-r4,High-exploration MCTS run 4 vs strong opponent,High-exploration MCTS,4,hold-attack,2,2.222
+exploratory-r4,High-exploration MCTS run 4 vs strong opponent,High-exploration MCTS,4,jump-advance,5,5.556
+exploratory-r4,High-exploration MCTS run 4 vs strong opponent,High-exploration MCTS,4,jump-sprint,3,3.333
+exploratory-r4,High-exploration MCTS run 4 vs strong opponent,High-exploration MCTS,4,sprint-advance,60,66.667
+exploratory-r5,High-exploration MCTS run 5 vs balanced opponent,High-exploration MCTS,5,advance,15,13.043
+exploratory-r5,High-exploration MCTS run 5 vs balanced opponent,High-exploration MCTS,5,close-attack,10,8.696
+exploratory-r5,High-exploration MCTS run 5 vs balanced opponent,High-exploration MCTS,5,hold-attack,2,1.739
+exploratory-r5,High-exploration MCTS run 5 vs balanced opponent,High-exploration MCTS,5,jump-advance,3,2.609
+exploratory-r5,High-exploration MCTS run 5 vs balanced opponent,High-exploration MCTS,5,jump-sprint,5,4.348
+exploratory-r5,High-exploration MCTS run 5 vs balanced opponent,High-exploration MCTS,5,sprint-advance,80,69.565
+exploratory-r6,High-exploration MCTS run 6 vs defensive opponent,High-exploration MCTS,6,advance,18,16.071
+exploratory-r6,High-exploration MCTS run 6 vs defensive opponent,High-exploration MCTS,6,close-attack,10,8.929
+exploratory-r6,High-exploration MCTS run 6 vs defensive opponent,High-exploration MCTS,6,hold-attack,1,0.893
+exploratory-r6,High-exploration MCTS run 6 vs defensive opponent,High-exploration MCTS,6,jump-advance,5,4.464
+exploratory-r6,High-exploration MCTS run 6 vs defensive opponent,High-exploration MCTS,6,jump-sprint,3,2.679
+exploratory-r6,High-exploration MCTS run 6 vs defensive opponent,High-exploration MCTS,6,sprint-advance,75,66.964
+exploratory-r7,High-exploration MCTS run 7 vs aggressive opponent,High-exploration MCTS,7,advance,22,19.13
+exploratory-r7,High-exploration MCTS run 7 vs aggressive opponent,High-exploration MCTS,7,close-attack,10,8.696
+exploratory-r7,High-exploration MCTS run 7 vs aggressive opponent,High-exploration MCTS,7,hold-attack,1,0.87
+exploratory-r7,High-exploration MCTS run 7 vs aggressive opponent,High-exploration MCTS,7,jump-advance,2,1.739
+exploratory-r7,High-exploration MCTS run 7 vs aggressive opponent,High-exploration MCTS,7,jump-sprint,1,0.87
+exploratory-r7,High-exploration MCTS run 7 vs aggressive opponent,High-exploration MCTS,7,sprint-advance,79,68.696
+exploratory-r8,High-exploration MCTS run 8 vs strong opponent,High-exploration MCTS,8,advance,35,30.973
+exploratory-r8,High-exploration MCTS run 8 vs strong opponent,High-exploration MCTS,8,close-attack,10,8.85
+exploratory-r8,High-exploration MCTS run 8 vs strong opponent,High-exploration MCTS,8,hold-attack,2,1.77
+exploratory-r8,High-exploration MCTS run 8 vs strong opponent,High-exploration MCTS,8,jump-advance,5,4.425
+exploratory-r8,High-exploration MCTS run 8 vs strong opponent,High-exploration MCTS,8,jump-sprint,3,2.655
+exploratory-r8,High-exploration MCTS run 8 vs strong opponent,High-exploration MCTS,8,sprint-advance,58,51.327
+high-budget-r1,Higher-budget MCTS run 1 vs balanced opponent,Higher-budget MCTS,1,advance,16,14.953
+high-budget-r1,Higher-budget MCTS run 1 vs balanced opponent,Higher-budget MCTS,1,close-attack,11,10.28
+high-budget-r1,Higher-budget MCTS run 1 vs balanced opponent,Higher-budget MCTS,1,jump-advance,3,2.804
+high-budget-r1,Higher-budget MCTS run 1 vs balanced opponent,Higher-budget MCTS,1,jump-sprint,3,2.804
+high-budget-r1,Higher-budget MCTS run 1 vs balanced opponent,Higher-budget MCTS,1,sprint-advance,74,69.159
+high-budget-r2,Higher-budget MCTS run 2 vs defensive opponent,Higher-budget MCTS,2,advance,17,15.179
+high-budget-r2,Higher-budget MCTS run 2 vs defensive opponent,Higher-budget MCTS,2,close-attack,9,8.036
+high-budget-r2,Higher-budget MCTS run 2 vs defensive opponent,Higher-budget MCTS,2,hold-attack,1,0.893
+high-budget-r2,Higher-budget MCTS run 2 vs defensive opponent,Higher-budget MCTS,2,jump-advance,6,5.357
+high-budget-r2,Higher-budget MCTS run 2 vs defensive opponent,Higher-budget MCTS,2,jump-sprint,4,3.571
+high-budget-r2,Higher-budget MCTS run 2 vs defensive opponent,Higher-budget MCTS,2,sprint-advance,75,66.964
+high-budget-r3,Higher-budget MCTS run 3 vs aggressive opponent,Higher-budget MCTS,3,advance,14,12.727
+high-budget-r3,Higher-budget MCTS run 3 vs aggressive opponent,Higher-budget MCTS,3,close-attack,9,8.182
+high-budget-r3,Higher-budget MCTS run 3 vs aggressive opponent,Higher-budget MCTS,3,jump-advance,6,5.455
+high-budget-r3,Higher-budget MCTS run 3 vs aggressive opponent,Higher-budget MCTS,3,jump-sprint,2,1.818
+high-budget-r3,Higher-budget MCTS run 3 vs aggressive opponent,Higher-budget MCTS,3,sprint-advance,79,71.818
+high-budget-r4,Higher-budget MCTS run 4 vs strong opponent,Higher-budget MCTS,4,advance,24,21.239
+high-budget-r4,Higher-budget MCTS run 4 vs strong opponent,Higher-budget MCTS,4,close-attack,11,9.735
+high-budget-r4,Higher-budget MCTS run 4 vs strong opponent,Higher-budget MCTS,4,jump-advance,5,4.425
+high-budget-r4,Higher-budget MCTS run 4 vs strong opponent,Higher-budget MCTS,4,jump-sprint,4,3.54
+high-budget-r4,Higher-budget MCTS run 4 vs strong opponent,Higher-budget MCTS,4,sprint-advance,69,61.062
+high-budget-r5,Higher-budget MCTS run 5 vs balanced opponent,Higher-budget MCTS,5,advance,13,11.504
+high-budget-r5,Higher-budget MCTS run 5 vs balanced opponent,Higher-budget MCTS,5,close-attack,10,8.85
+high-budget-r5,Higher-budget MCTS run 5 vs balanced opponent,Higher-budget MCTS,5,hold-attack,1,0.885
+high-budget-r5,Higher-budget MCTS run 5 vs balanced opponent,Higher-budget MCTS,5,jump-advance,5,4.425
+high-budget-r5,Higher-budget MCTS run 5 vs balanced opponent,Higher-budget MCTS,5,jump-sprint,1,0.885
+high-budget-r5,Higher-budget MCTS run 5 vs balanced opponent,Higher-budget MCTS,5,sprint-advance,83,73.451
+high-budget-r6,Higher-budget MCTS run 6 vs defensive opponent,Higher-budget MCTS,6,advance,23,19.492
+high-budget-r6,Higher-budget MCTS run 6 vs defensive opponent,Higher-budget MCTS,6,close-attack,12,10.169
+high-budget-r6,Higher-budget MCTS run 6 vs defensive opponent,Higher-budget MCTS,6,jump-advance,4,3.39
+high-budget-r6,Higher-budget MCTS run 6 vs defensive opponent,Higher-budget MCTS,6,jump-sprint,5,4.237
+high-budget-r6,Higher-budget MCTS run 6 vs defensive opponent,Higher-budget MCTS,6,sprint-advance,74,62.712
+high-budget-r7,Higher-budget MCTS run 7 vs aggressive opponent,Higher-budget MCTS,7,advance,12,10.435
+high-budget-r7,Higher-budget MCTS run 7 vs aggressive opponent,Higher-budget MCTS,7,close-attack,10,8.696
+high-budget-r7,Higher-budget MCTS run 7 vs aggressive opponent,Higher-budget MCTS,7,jump-advance,3,2.609
+high-budget-r7,Higher-budget MCTS run 7 vs aggressive opponent,Higher-budget MCTS,7,jump-sprint,3,2.609
+high-budget-r7,Higher-budget MCTS run 7 vs aggressive opponent,Higher-budget MCTS,7,sprint-advance,87,75.652
+high-budget-r8,Higher-budget MCTS run 8 vs strong opponent,Higher-budget MCTS,8,advance,19,21.591
+high-budget-r8,Higher-budget MCTS run 8 vs strong opponent,Higher-budget MCTS,8,close-attack,11,12.5
+high-budget-r8,Higher-budget MCTS run 8 vs strong opponent,Higher-budget MCTS,8,jump-advance,4,4.545
+high-budget-r8,Higher-budget MCTS run 8 vs strong opponent,Higher-budget MCTS,8,jump-sprint,3,3.409
+high-budget-r8,Higher-budget MCTS run 8 vs strong opponent,Higher-budget MCTS,8,sprint-advance,51,57.955
 wide-arena-example,Wide arena example,Environment stress test,1,advance,16,14.953
 wide-arena-example,Wide arena example,Environment stress test,1,close-attack,10,9.346
 wide-arena-example,Wide arena example,Environment stress test,1,hold-attack,1,0.935

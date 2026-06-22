@@ -16,73 +16,173 @@
     <text x="28" y="260" transform="rotate(-90 28 260)" text-anchor="middle" class="small">Final health</text>
   
     
-      <rect x="73.11764705882354" y="380.9090909090909" width="28" height="69.0909090909091" fill="#2563eb"/>
-      <rect x="107.11764705882354" y="450" width="28" height="0" fill="#dc2626"/>
-      <text x="104.11764705882354" y="476" text-anchor="middle" class="tiny">standard-mcts-r1</text>
+      <rect x="58.76190476190476" y="398.1818181818182" width="28" height="51.81818181818181" fill="#2563eb"/>
+      <rect x="92.76190476190476" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="89.76190476190476" y="476" text-anchor="middle" class="tiny">standard-mcts-r1</text>
     
-      <rect x="121.35294117647061" y="380.9090909090909" width="28" height="69.0909090909091" fill="#2563eb"/>
-      <rect x="155.3529411764706" y="450" width="28" height="0" fill="#dc2626"/>
-      <text x="152.3529411764706" y="476" text-anchor="middle" class="tiny">standard-mcts-r2</text>
+      <rect x="78.28571428571428" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="112.28571428571428" y="432.72727272727275" width="28" height="17.272727272727273" fill="#dc2626"/>
+      <text x="109.28571428571428" y="476" text-anchor="middle" class="tiny">standard-mcts-r2</text>
     
-      <rect x="169.58823529411765" y="450" width="28" height="0" fill="#2563eb"/>
-      <rect x="203.58823529411765" y="380.9090909090909" width="28" height="69.0909090909091" fill="#dc2626"/>
-      <text x="200.58823529411765" y="476" text-anchor="middle" class="tiny">standard-mcts-r3</text>
+      <rect x="97.80952380952382" y="363.6363636363636" width="28" height="86.36363636363636" fill="#2563eb"/>
+      <rect x="131.80952380952382" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="128.80952380952382" y="476" text-anchor="middle" class="tiny">standard-mcts-r3</text>
     
-      <rect x="217.8235294117647" y="450" width="28" height="0" fill="#2563eb"/>
-      <rect x="251.8235294117647" y="380.9090909090909" width="28" height="69.0909090909091" fill="#dc2626"/>
-      <text x="248.8235294117647" y="476" text-anchor="middle" class="tiny">hybrid-heuristic-r1</text>
+      <rect x="117.33333333333334" y="432.72727272727275" width="28" height="17.272727272727273" fill="#2563eb"/>
+      <rect x="151.33333333333334" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="148.33333333333334" y="476" text-anchor="middle" class="tiny">standard-mcts-r4</text>
     
-      <rect x="266.05882352941177" y="450" width="28" height="0" fill="#2563eb"/>
-      <rect x="300.05882352941177" y="380.9090909090909" width="28" height="69.0909090909091" fill="#dc2626"/>
-      <text x="297.05882352941177" y="476" text-anchor="middle" class="tiny">hybrid-heuristic-r2</text>
+      <rect x="136.85714285714286" y="380.9090909090909" width="28" height="69.0909090909091" fill="#2563eb"/>
+      <rect x="170.85714285714286" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="167.85714285714286" y="476" text-anchor="middle" class="tiny">standard-mcts-r5</text>
     
-      <rect x="314.29411764705884" y="450" width="28" height="0" fill="#2563eb"/>
-      <rect x="348.29411764705884" y="380.9090909090909" width="28" height="69.0909090909091" fill="#dc2626"/>
-      <text x="345.29411764705884" y="476" text-anchor="middle" class="tiny">hybrid-heuristic-r3</text>
+      <rect x="156.38095238095238" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="190.38095238095238" y="363.6363636363636" width="28" height="86.36363636363636" fill="#dc2626"/>
+      <text x="187.38095238095238" y="476" text-anchor="middle" class="tiny">standard-mcts-r6</text>
     
-      <rect x="362.52941176470586" y="380.9090909090909" width="28" height="69.0909090909091" fill="#2563eb"/>
-      <rect x="396.52941176470586" y="450" width="28" height="0" fill="#dc2626"/>
-      <text x="393.52941176470586" y="476" text-anchor="middle" class="tiny">risk-aware-r1</text>
+      <rect x="175.90476190476193" y="363.6363636363636" width="28" height="86.36363636363636" fill="#2563eb"/>
+      <rect x="209.90476190476193" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="206.90476190476193" y="476" text-anchor="middle" class="tiny">standard-mcts-r7</text>
     
-      <rect x="410.7647058823529" y="450" width="28" height="0" fill="#2563eb"/>
-      <rect x="444.7647058823529" y="380.9090909090909" width="28" height="69.0909090909091" fill="#dc2626"/>
-      <text x="441.7647058823529" y="476" text-anchor="middle" class="tiny">risk-aware-r2</text>
+      <rect x="195.42857142857144" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="229.42857142857144" y="380.9090909090909" width="28" height="69.0909090909091" fill="#dc2626"/>
+      <text x="226.42857142857144" y="476" text-anchor="middle" class="tiny">standard-mcts-r8</text>
     
-      <rect x="459" y="450" width="28" height="0" fill="#2563eb"/>
-      <rect x="493" y="380.9090909090909" width="28" height="69.0909090909091" fill="#dc2626"/>
-      <text x="490" y="476" text-anchor="middle" class="tiny">risk-aware-r3</text>
+      <rect x="214.95238095238096" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="248.95238095238096" y="380.9090909090909" width="28" height="69.0909090909091" fill="#dc2626"/>
+      <text x="245.95238095238096" y="476" text-anchor="middle" class="tiny">hybrid-heuristic-r1</text>
     
-      <rect x="507.2352941176471" y="380.9090909090909" width="28" height="69.0909090909091" fill="#2563eb"/>
-      <rect x="541.2352941176471" y="450" width="28" height="0" fill="#dc2626"/>
-      <text x="538.2352941176471" y="476" text-anchor="middle" class="tiny">exploratory-r1</text>
+      <rect x="234.47619047619048" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="268.4761904761905" y="363.6363636363636" width="28" height="86.36363636363636" fill="#dc2626"/>
+      <text x="265.4761904761905" y="476" text-anchor="middle" class="tiny">hybrid-heuristic-r2</text>
     
-      <rect x="555.4705882352941" y="380.9090909090909" width="28" height="69.0909090909091" fill="#2563eb"/>
-      <rect x="589.4705882352941" y="450" width="28" height="0" fill="#dc2626"/>
-      <text x="586.4705882352941" y="476" text-anchor="middle" class="tiny">exploratory-r2</text>
+      <rect x="254" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="288" y="380.9090909090909" width="28" height="69.0909090909091" fill="#dc2626"/>
+      <text x="285" y="476" text-anchor="middle" class="tiny">hybrid-heuristic-r3</text>
     
-      <rect x="603.7058823529412" y="380.9090909090909" width="28" height="69.0909090909091" fill="#2563eb"/>
-      <rect x="637.7058823529412" y="450" width="28" height="0" fill="#dc2626"/>
-      <text x="634.7058823529412" y="476" text-anchor="middle" class="tiny">exploratory-r3</text>
+      <rect x="273.5238095238096" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="307.5238095238096" y="311.8181818181818" width="28" height="138.1818181818182" fill="#dc2626"/>
+      <text x="304.5238095238096" y="476" text-anchor="middle" class="tiny">hybrid-heuristic-r4</text>
     
-      <rect x="651.9411764705882" y="380.9090909090909" width="28" height="69.0909090909091" fill="#2563eb"/>
-      <rect x="685.9411764705882" y="450" width="28" height="0" fill="#dc2626"/>
-      <text x="682.9411764705882" y="476" text-anchor="middle" class="tiny">high-budget-r1</text>
+      <rect x="293.0476190476191" y="398.1818181818182" width="28" height="51.81818181818181" fill="#2563eb"/>
+      <rect x="327.0476190476191" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="324.0476190476191" y="476" text-anchor="middle" class="tiny">hybrid-heuristic-r5</text>
     
-      <rect x="700.1764705882352" y="380.9090909090909" width="28" height="69.0909090909091" fill="#2563eb"/>
-      <rect x="734.1764705882352" y="450" width="28" height="0" fill="#dc2626"/>
-      <text x="731.1764705882352" y="476" text-anchor="middle" class="tiny">high-budget-r2</text>
+      <rect x="312.5714285714286" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="346.5714285714286" y="363.6363636363636" width="28" height="86.36363636363636" fill="#dc2626"/>
+      <text x="343.5714285714286" y="476" text-anchor="middle" class="tiny">hybrid-heuristic-r6</text>
     
-      <rect x="748.4117647058823" y="380.9090909090909" width="28" height="69.0909090909091" fill="#2563eb"/>
-      <rect x="782.4117647058823" y="450" width="28" height="0" fill="#dc2626"/>
-      <text x="779.4117647058823" y="476" text-anchor="middle" class="tiny">high-budget-r3</text>
+      <rect x="332.09523809523813" y="363.6363636363636" width="28" height="86.36363636363636" fill="#2563eb"/>
+      <rect x="366.09523809523813" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="363.09523809523813" y="476" text-anchor="middle" class="tiny">hybrid-heuristic-r7</text>
     
-      <rect x="796.6470588235294" y="311.8181818181818" width="28" height="138.1818181818182" fill="#2563eb"/>
-      <rect x="830.6470588235294" y="450" width="28" height="0" fill="#dc2626"/>
-      <text x="827.6470588235294" y="476" text-anchor="middle" class="tiny">wide-arena-example</text>
+      <rect x="351.61904761904765" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="385.61904761904765" y="380.9090909090909" width="28" height="69.0909090909091" fill="#dc2626"/>
+      <text x="382.61904761904765" y="476" text-anchor="middle" class="tiny">hybrid-heuristic-r8</text>
     
-      <rect x="844.8823529411765" y="450" width="28" height="0" fill="#2563eb"/>
-      <rect x="878.8823529411765" y="277.27272727272725" width="28" height="172.72727272727272" fill="#dc2626"/>
-      <text x="875.8823529411765" y="476" text-anchor="middle" class="tiny">low-health-example</text>
+      <rect x="371.14285714285717" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="405.14285714285717" y="380.9090909090909" width="28" height="69.0909090909091" fill="#dc2626"/>
+      <text x="402.14285714285717" y="476" text-anchor="middle" class="tiny">risk-aware-r1</text>
+    
+      <rect x="390.6666666666667" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="424.6666666666667" y="432.72727272727275" width="28" height="17.272727272727273" fill="#dc2626"/>
+      <text x="421.6666666666667" y="476" text-anchor="middle" class="tiny">risk-aware-r2</text>
+    
+      <rect x="410.1904761904762" y="380.9090909090909" width="28" height="69.0909090909091" fill="#2563eb"/>
+      <rect x="444.1904761904762" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="441.1904761904762" y="476" text-anchor="middle" class="tiny">risk-aware-r3</text>
+    
+      <rect x="429.7142857142857" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="463.7142857142857" y="380.9090909090909" width="28" height="69.0909090909091" fill="#dc2626"/>
+      <text x="460.7142857142857" y="476" text-anchor="middle" class="tiny">risk-aware-r4</text>
+    
+      <rect x="449.23809523809524" y="398.1818181818182" width="28" height="51.81818181818181" fill="#2563eb"/>
+      <rect x="483.23809523809524" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="480.23809523809524" y="476" text-anchor="middle" class="tiny">risk-aware-r5</text>
+    
+      <rect x="468.7619047619048" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="502.7619047619048" y="432.72727272727275" width="28" height="17.272727272727273" fill="#dc2626"/>
+      <text x="499.7619047619048" y="476" text-anchor="middle" class="tiny">risk-aware-r6</text>
+    
+      <rect x="488.28571428571433" y="380.9090909090909" width="28" height="69.0909090909091" fill="#2563eb"/>
+      <rect x="522.2857142857143" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="519.2857142857143" y="476" text-anchor="middle" class="tiny">risk-aware-r7</text>
+    
+      <rect x="507.80952380952385" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="541.8095238095239" y="380.9090909090909" width="28" height="69.0909090909091" fill="#dc2626"/>
+      <text x="538.8095238095239" y="476" text-anchor="middle" class="tiny">risk-aware-r8</text>
+    
+      <rect x="527.3333333333335" y="398.1818181818182" width="28" height="51.81818181818181" fill="#2563eb"/>
+      <rect x="561.3333333333335" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="558.3333333333335" y="476" text-anchor="middle" class="tiny">exploratory-r1</text>
+    
+      <rect x="546.8571428571429" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="580.8571428571429" y="363.6363636363636" width="28" height="86.36363636363636" fill="#dc2626"/>
+      <text x="577.8571428571429" y="476" text-anchor="middle" class="tiny">exploratory-r2</text>
+    
+      <rect x="566.3809523809525" y="363.6363636363636" width="28" height="86.36363636363636" fill="#2563eb"/>
+      <rect x="600.3809523809525" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="597.3809523809525" y="476" text-anchor="middle" class="tiny">exploratory-r3</text>
+    
+      <rect x="585.904761904762" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="619.904761904762" y="380.9090909090909" width="28" height="69.0909090909091" fill="#dc2626"/>
+      <text x="616.904761904762" y="476" text-anchor="middle" class="tiny">exploratory-r4</text>
+    
+      <rect x="605.4285714285716" y="363.6363636363636" width="28" height="86.36363636363636" fill="#2563eb"/>
+      <rect x="639.4285714285716" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="636.4285714285716" y="476" text-anchor="middle" class="tiny">exploratory-r5</text>
+    
+      <rect x="624.9523809523811" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="658.9523809523811" y="363.6363636363636" width="28" height="86.36363636363636" fill="#dc2626"/>
+      <text x="655.9523809523811" y="476" text-anchor="middle" class="tiny">exploratory-r6</text>
+    
+      <rect x="644.4761904761906" y="380.9090909090909" width="28" height="69.0909090909091" fill="#2563eb"/>
+      <rect x="678.4761904761906" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="675.4761904761906" y="476" text-anchor="middle" class="tiny">exploratory-r7</text>
+    
+      <rect x="664.0000000000001" y="432.72727272727275" width="28" height="17.272727272727273" fill="#2563eb"/>
+      <rect x="698.0000000000001" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="695.0000000000001" y="476" text-anchor="middle" class="tiny">exploratory-r8</text>
+    
+      <rect x="683.5238095238096" y="398.1818181818182" width="28" height="51.81818181818181" fill="#2563eb"/>
+      <rect x="717.5238095238096" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="714.5238095238096" y="476" text-anchor="middle" class="tiny">high-budget-r1</text>
+    
+      <rect x="703.0476190476192" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="737.0476190476192" y="432.72727272727275" width="28" height="17.272727272727273" fill="#dc2626"/>
+      <text x="734.0476190476192" y="476" text-anchor="middle" class="tiny">high-budget-r2</text>
+    
+      <rect x="722.5714285714287" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="756.5714285714287" y="380.9090909090909" width="28" height="69.0909090909091" fill="#dc2626"/>
+      <text x="753.5714285714287" y="476" text-anchor="middle" class="tiny">high-budget-r3</text>
+    
+      <rect x="742.0952380952382" y="432.72727272727275" width="28" height="17.272727272727273" fill="#2563eb"/>
+      <rect x="776.0952380952382" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="773.0952380952382" y="476" text-anchor="middle" class="tiny">high-budget-r4</text>
+    
+      <rect x="761.6190476190477" y="432.72727272727275" width="28" height="17.272727272727273" fill="#2563eb"/>
+      <rect x="795.6190476190477" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="792.6190476190477" y="476" text-anchor="middle" class="tiny">high-budget-r5</text>
+    
+      <rect x="781.1428571428572" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="815.1428571428572" y="432.72727272727275" width="28" height="17.272727272727273" fill="#dc2626"/>
+      <text x="812.1428571428572" y="476" text-anchor="middle" class="tiny">high-budget-r6</text>
+    
+      <rect x="800.6666666666667" y="363.6363636363636" width="28" height="86.36363636363636" fill="#2563eb"/>
+      <rect x="834.6666666666667" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="831.6666666666667" y="476" text-anchor="middle" class="tiny">high-budget-r7</text>
+    
+      <rect x="820.1904761904763" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="854.1904761904763" y="380.9090909090909" width="28" height="69.0909090909091" fill="#dc2626"/>
+      <text x="851.1904761904763" y="476" text-anchor="middle" class="tiny">high-budget-r8</text>
+    
+      <rect x="839.7142857142858" y="311.8181818181818" width="28" height="138.1818181818182" fill="#2563eb"/>
+      <rect x="873.7142857142858" y="450" width="28" height="0" fill="#dc2626"/>
+      <text x="870.7142857142858" y="476" text-anchor="middle" class="tiny">wide-arena-example</text>
+    
+      <rect x="859.2380952380954" y="450" width="28" height="0" fill="#2563eb"/>
+      <rect x="893.2380952380954" y="277.27272727272725" width="28" height="172.72727272727272" fill="#dc2626"/>
+      <text x="890.2380952380954" y="476" text-anchor="middle" class="tiny">low-health-example</text>
     
     <rect x="730" y="67" width="16" height="16" fill="#2563eb"/><text x="754" y="80" class="small">Alpha</text><rect x="730" y="93" width="16" height="16" fill="#dc2626"/><text x="754" y="106" class="small">Bravo</text>
   
